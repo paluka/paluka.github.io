@@ -1,0 +1,114 @@
+### No more directory listing
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{REQUEST_URI} ^([^/]*)/(([^/]*)/)*$
+RewriteCond %{REQUEST_FILENAME}index.php !-f
+RewriteCond %{REQUEST_FILENAME}index.html !-f
+RewriteCond %{REQUEST_FILENAME}index.htm !-f
+RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule (.*) /index.html [L]
+
+### No more directory listing
+#Options -Indexes
+
+### activate mod_expires
+
+ExpiresActive On
+
+### Expire everything else 7 day from when it's last modified
+
+ExpiresDefault "modification plus 7 days"
+
+### Expire images 1 month from when they're accessed
+
+ExpiresByType image/gif "access plus 1 month"
+
+ExpiresByType image/png "access plus 1 month"
+
+ExpiresByType image/jpg "access plus 1 month"
+
+### Apply a Cache-Control headers
+
+<FilesMatch "\.(gif|jpg|png)$>
+
+#Header append Cache-Control "public, max-age=604800, no-transform, must-revalidate"
+
+</FilesMatch>
+
+### Apply a Cache-Control headers
+
+<FilesMatch "\.(html|css|php)$>
+
+#Header append Cache-Control "public, max-age=7200, no-transform, must-revalidate"
+
+</FilesMatch>
+
+<FilesMatch "\.(js|css)$">
+
+    #Header append Vary: Accept-Encoding
+
+</FilesMatch>
+
+ErrorDocument 400 /error.php
+
+ErrorDocument 401 /error.php
+
+ErrorDocument 402 /error.php
+
+ErrorDocument 403 /error.php
+
+ErrorDocument 404 /error.php
+
+ErrorDocument 405 /error.php
+
+ErrorDocument 406 /error.php
+
+ErrorDocument 407 /error.php
+
+ErrorDocument 408 /error.php
+
+ErrorDocument 409 /error.php
+
+ErrorDocument 410 /error.php
+
+ErrorDocument 411 /error.php
+
+ErrorDocument 412 /error.php
+
+ErrorDocument 413 /error.php
+
+ErrorDocument 414 /error.php
+
+ErrorDocument 500 /error.php
+
+ErrorDocument 501 /error.php
+
+ErrorDocument 502 /error.php
+
+ErrorDocument 503 /error.php
+
+ErrorDocument 504 /error.php
+
+ErrorDocument 505 /error.php
+
+DirectoryIndex index.php
+
+# Always use https for secure connections
+# Replace 'www.example.com' with your domain name
+# (as it appears on your SSL certificate)
+RewriteEngine On
+RewriteCond %{SERVER_PORT} 80
+RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^(.*)$ https://www.erikpaluka.com/$1 [R=301,L]
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php73” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php73___lsphp .php .php7 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit

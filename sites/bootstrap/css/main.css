@@ -1,0 +1,307 @@
+@font-face {
+    font-family: proto;
+    src: url("font/Prototype.ttf") format("truetype");
+}
+#carousel h1 {
+    font-family: proto;
+    font-weight: bold;
+}
+.row {
+    width: 100%;
+}
+#info {
+    color: #428bca;
+}
+#info:hover, #info:focus {
+    cursor: pointer;
+    color: #2a6496;
+    text-decoration: underline;
+}
+.mainButton img {
+    margin-bottom: 5px;
+}
+/*
+ Twitter
+*/
+ iframe[id^='twitter-widget-'] {
+    width:100%;
+}
+#aboutMeNav, #researchNav, #projectsNav, #back, #backSD {
+    cursor: pointer;
+}
+#bio {
+    display: none;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+#research {
+    display: none;
+    position: fixed;
+    top: 10%;
+    width: 100%;
+    min-height: 500px;
+    left: 0;
+    margin-left: inherit;
+    margin-right: inherit;
+    z-index: 20;
+    background-color: rgba(0, 0, 0, 0.95);
+    border-radius: 15px;
+    border-color: rgba(0, 0, 0, 0.95);
+    border-width: 2px;
+    border-style: solid;
+}
+#innerResearch {
+    position: absolute;
+    top:50%;
+    margin-top:-5em;
+    width: 100%;
+}
+#innerResearch img {
+    border-radius: 15px;
+    border-color: rgba(0, 0, 0, 0.95);
+    border-width: 2px;
+    border-style: solid;
+}
+.innerButton {
+    margin: auto;
+    max-width: 140px;
+}
+#innerResearch p {
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 140px;
+}
+
+#bioImg {
+    margin: auto;
+    border-style:solid;
+    border-color: black;
+    border-width: 5px;
+    border-radius: 15px;
+}
+#bioHeading {
+    margin-bottom: 50px;
+}
+#tandemTable p {
+    background-color: #CC3713;
+    background-image: none;
+    border-color: #CC3713;
+}
+#smt p {
+    background-color: #006C9E;
+    background-image: none;
+    border-color: #006C9E;
+}
+#s3D p {
+    background-color: #7A62DA;
+    background-image: none;
+    border-color: #7A62DA;
+}
+.researchButton {
+    background-image: none;
+    width: 140px;
+}
+.innerClick {
+    cursor: pointer;
+}
+.featurette-heading {
+    margin-bottom: 50px;
+    margin-top: -30px;
+}
+#mainPRow {
+    margin-left: auto; 
+    margin-right: auto;
+    width: 80%;
+    text-align: center;
+}
+#projects {
+ text-align: center;  
+    display: none;
+}
+
+
+
+.divider img {
+   background-color: rgba(0, 0, 0, 0.95);
+    border-radius: 15px;
+    border-color: rgba(0, 0, 0, 0.95);
+    border-width: 3px;
+    border-style: solid;
+    
+    cursor:pointer;
+    margin-bottom: 40px;
+}
+
+.divider img:hover {
+    border-color: rgba(0, 173, 0, 0.95);
+   
+}
+
+#projectsDivider {
+    white-space: nowrap;
+    min-width: 315px;
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 30px;
+    }
+    #research {
+        position: absolute;
+    }
+    #research .col-xs-4 {
+        width: inherit;
+    }
+    #innerResearch {
+        position: relative;
+        height:auto;
+        margin-top:0em;
+    }
+    
+    .displacement {
+        min-width: 96px;
+        width: 96px;
+    }
+    
+    #projects {
+        margin-left:-10px;
+    }
+    
+    #intro {
+     margin-top: 50px;  
+     margin-bottom: 50px;
+    }
+    
+   
+}
+
+@media (max-width: 768px) and (min-width: 481px)  {
+     .row {
+        margin-left:0.5em;
+    }
+}
+
+@media (min-width: 961px) {
+     .introButton {
+         margin-right: 20px;   
+    }
+}
+
+.midSettings {
+    margin-bottom: 15px;
+}
+
+.minWidth {
+    min-width: 400px;
+}
+
+
+.table {
+ border: 0; 
+    padding: 10px;
+    margin: auto;
+    
+}
+
+.table input {
+ width: 30px;
+ max-width: 30px;   
+}
+
+canvas {
+    border: dotted;
+    margin: auto;
+    
+    
+}
+
+#rayProp {
+    
+    text-align:left;
+    
+    white-space:nowrap;
+}
+
+#rayProp input {
+     width:40px;
+    margin-left: 10px;
+}
+
+#tracer {
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+/* midpoint */
+#midPointDis table {
+    margin: auto;
+    text-align: center;
+}
+/*CSS3 Button*/
+ .button {
+    cursor:pointer;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    -moz-box-shadow: inset 0px -1px 3px rgba(255, 255, 255, 0.5), 3px 3px 2px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: inset 0px -1px 3px rgba(255, 255, 255, 0.5), 3px 3px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0px -1px 3px rgba(255, 255, 255, 0.5), 3px 3px 2px rgba(0, 0, 0, 0.2);
+    border: 1px solid;
+    padding: 8px 12px;
+    color: #fff;
+    font-family:"Myriad Pro", Arial, Tahoma, sans-serif;
+    font-size: 1.4em;
+    font-weight: bold;
+    text-shadow: -1px -1px rgba(0, 0, 0, 0.1), 0 0 15px rgba(255, 255, 255, 0.75);
+    white-space: nowrap;
+    background: #9CF;
+    border-color: #9CF;
+    text-decoration: none;
+    font-style: normal;
+    text-transform: none;
+    width:250px;
+    position: relative;
+    text-align:center;
+    
+    top:10px;
+    margin:auto;
+}
+.button:hover, .button:focus {
+    background: #F00;
+    border-color: #F00;
+    /* Default color */
+}
+.button:active {
+    /*top: 5px;*/
+    background: #3F0;
+    border-color: #3F0;
+}
+
+.columns {
+    text-align: justify;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    padding: 20px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    /* CSS Column code for webkit */
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;
+    -webkit-column-rule-color: #888888;
+    -webkit-column-rule-style: none;
+    -webkit-column-rule-width: 2px;
+    /* CSS Column code for mozilla */
+    -moz-column-count: 2;
+    -moz-column-gap: 20px;
+    -moz-column-rule-color: #888888;
+    -moz-column-rule-style: none;
+    -moz-column-rule-width: 2px;
+    /* CSS3 Column code  */
+    column-count: 2;
+    column-gap: 20px;
+    column-rule-color: #888888;
+    column-rule-style: none;
+    column-rule-width: 2px;
+}
+
+#twitterBootLink {
+    width: 100%;
+}

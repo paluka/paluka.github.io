@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/paluka
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://www.erikpaluka.com
+  * I am paluka (https://keybase.io/paluka) on keybase.
+  * I have a public key with fingerprint E28E 749A 6498 031F 43FA  B351 BD63 776D 31CE 016A
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "010193157edeff31d583880638aadb122d8ea6d09af43e3d55d95a52a030de8838590a",
+            "fingerprint": "e28e749a6498031f43fab351bd63776d31ce016a",
+            "host": "keybase.io",
+            "key_id": "bd63776d31ce016a",
+            "kid": "010193157edeff31d583880638aadb122d8ea6d09af43e3d55d95a52a030de8838590a",
+            "uid": "43413d1864803eece2ef89ab9d899419",
+            "username": "paluka"
+        },
+        "service": {
+            "hostname": "www.erikpaluka.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1458929085,
+    "expire_in": 157680000,
+    "prev": "3580bebe47a38f2160e1e90ad7b0502fdb6bf90a5334f53c5b75e06ae3c04be6",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.51
+Comment: https://keybase.io/crypto
+
+yMI0AnicrZJPTB1FHMcfAlWINk1NesEeXGOC9IXM7Ozszj7k4IGXIlxMTbUp5Tm7
+81vY8ni73bePVyCEGkElwSimWvxTbSC1Jhq0PAlqw78GqKYpIQQOHqwmUntoSRO1
+TYwSnEV68+hcJr+Zz/c739/kN/9Icay8KHn3hXdGrvkzRVfn3s/FDt/tmepWLE90
+KolupQ22N0gLyIapNlcoCQVhhE2CqQECHIdgQRlhDOmEcS4srKqCAdcFMrmjESCC
+UmFSTlWOCBLAJExNxJW44riZFgj8wM2E0hZUBoZmcl0zGSJYah1uEYotoRPD0AXB
+NiCsR8JWLxspZDiLZ6Ha9eSZLFLb8f6D/59z57btNKJhIjDTNRkXwAYVHGZyyxTM
+NDVsRmAWggxvB0n7PJ1r40pPXJFnHa4N0bdGfezc5/P5agjctn+5attrl3o/8ELP
+9tLyvjUM/UQkDzv9bR6s1I5TynIzQn6lFHRAkHW9jJLAkrRDN7LGGmWmaiJG4wqc
+9N0AUm5EUENnSK7oGeiQloQyZIEFmsEJc1SsI8AgOxaGhShSHWHpliNrSojmUGJT
+y6CAdA7ERpoFuhL1diLjKQlNxuQt0jLrtmR4mAtA6bk821QSKyqP7Sp9IBqxWHnZ
+nvuDd3rswc39w/39FRWfx7a+XP9+dubx+sLyxaqW2sp9G39OLCRr5uL5wvXB/PTc
+4JvJhZfTQ/1B6+uNnWrdZu2NmZrFow0HJ37/ZPj4AeW3yic+OpbdfSRMQu+egdcK
+6d1r90aXT332aHH809Vf25/6div33mrfF6du1L00thi++nxDPV65sKtsQhm6dGjj
+tP/Nzz88fHD4rcn5jSpv6tl7z/wxtvLuB/atrwfj3zUkRd/1tbPNx27e+nj/emyk
+6+bG1mN3fnxo+unN9tVep+TEL68sfzXuFL9Bm5fWr5AjL7qF0rfHRw3WzP86X9X1
+909Fh2Ld/jAdCJcaW0fKkmcvffjc7QPFJysm956bePJM0z98m0md
+=dJ4c
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/paluka
+
+==================================================================

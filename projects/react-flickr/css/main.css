@@ -1,0 +1,231 @@
+/*html {
+    height: 100%;
+}
+*/
+
+body {
+    margin: 0;
+    /*min-height: 100%;*/
+}
+
+body, input {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+/*#content {
+    min-height: 90vh;
+}
+*/
+
+
+/*
+@media (max-width: 1590px) and (min-width: 970px) {
+
+    .searchBox {
+        width: 60%;
+    }
+}
+
+@media (min-width: 1590px) {
+
+    .searchBox {
+        width: 70%;
+    }
+}
+*/
+
+.photoBox {
+    min-width: 700px;
+}
+
+.photoContainer {
+    display: inline-block;
+    padding: 10px;
+    border: 5px solid #F1F1F1;
+    transition-duration: 0.1s;
+    transition-property: transform;
+    min-width: 150px;
+    min-height: 150px;
+}
+
+.photoContainer:hover,
+.photoContainer:focus,
+.photoContainer:active {
+    border-color: #81C794;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.photoList {
+    width: 80%;
+    margin: auto;
+}
+
+.searchForm {
+    margin: 30px auto;
+    width: 600px;
+    min-width: 400px;
+}
+
+.searchBox {
+    min-width: 200px;
+    height: 30px;
+    padding-left: 50px;
+    width: 400px;
+}
+
+.searchButton {
+    margin-left: 20px;
+    width: 100px;
+    height: 35px;
+    border: none;
+    color: white;
+    background-color: #34A853;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 1.3em;
+    cursor: pointer;
+}
+
+.searchButton:active {
+    top: -1px;
+    position: relative;
+}
+
+.searchIcon {
+    background: url(../img/search.png) no-repeat;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    top: 5px;
+    left: 30px;
+    position: relative;
+}
+
+.viewerImg {
+    max-height: 500px;
+    max-width: 800px;
+    display: block;
+    margin: auto;
+}
+
+.viewerOuter {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #212124;
+    left: 0px;
+    top: 0px;
+    z-index: 110;
+}
+
+.viewerMiddle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.viewerInner {
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 500px;
+}
+
+.leftArrow {
+    background: url(../img/left-arrow.png);
+    width: 128px;
+    height: 128px;
+    position: absolute;
+    cursor: pointer;
+    left: 0px;
+    top: 50%;
+}
+
+.rightArrow {
+    background: url(../img/right-arrow.png);
+    width: 128px;
+    height: 128px;
+    position: absolute;
+    cursor: pointer;
+    right: 0px;
+    top: 50%;
+}
+
+.backButton {
+    width: 250px;
+    margin: 50px auto;
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    margin-bottom: -100px;
+    background-color: #34A853;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.backButton:active {
+    top: -1px;
+    position: relative;
+}
+
+/*
+.imgInfo {
+    max-width: 150px;
+    font-size: 10px;
+    position: absolute;
+    margin-top: 150px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+*/
+
+.viewerInfo {
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-size: 1.5em;
+    padding: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: -100px;
+    max-height: 100px;
+}
+
+#uploadDate {
+    font-size: 0.8em;
+}
+
+.morePhotos {
+    width: 20%;
+    min-width: 100px;
+    height: 50px;
+    border: none;
+    color: white;
+    background-color: #34A853;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 1.3em;
+    margin: 50px auto;
+    cursor: pointer;
+    display: block;
+}
+
+.morePhotos:active {
+    top: -1px;
+    position: relative;
+}
+
+#sortDropdown {
+    margin-top: 20px;
+    margin-left: 15px;
+    width: 300px;
+    height: 35px;
+    border: none;
+    color: white;
+    background-color: #34A853;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 1.1em;
+    cursor: pointer;
+}
