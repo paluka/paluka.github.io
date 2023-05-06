@@ -1,6 +1,30 @@
 Evaluating the Perceived Relative Depth of Stereoscopically Rendered Two-Dimensional Shapes
 
-Erik Paluka is currently working on his master's degree in computer science at the Univerisity of Ontario Institute of Technology (UOIT). He has been a member of the Visualization for Information Analysis Lab (vialab) under the supervision of Dr. Christopher Collins since May 2011. He received his Bachelor of Science (B.Sc. Honours) in Computer Science specializing in Digital Media from the Univerisity of Ontario Institute of Technology (UOIT) in 2012. His senior honours thesis project, "Enhancing Tandem Language Learning Using an Interactive Tabletop", dealt with the tandem language learning method and interactive surfaces. His research interests lie within the realm of human-computer interaction (HCI). Specifically natural user interfaces (NUI), spatial and multi-touch interaction, collaborative learning, computer-supported cooperative work and user interface design.
+Erik Paluka is currently working on his master's degree in computer science
+at the Univerisity of Ontario Institute of Technology (UOIT). He has been 
+a member of the Visualization for Information Analysis Lab (vialab) 
+under the supervision of Dr. Christopher Collins since May 2011. 
+He received his Bachelor of Science (B.Sc. Honours) in Computer Science 
+specializing in Digital Media from the Univerisity of Ontario Institute of Technology (UOIT) 
+in 2012. His senior honours thesis project, "Enhancing Tandem Language Learning Using an Interactive Tabletop", 
+dealt with the tandem language learning method and interactive surfaces. 
+His research interests lie within the realm of human-computer interaction (HCI). 
+Specifically natural user interfaces (NUI), spatial and multi-touch interaction, 
+collaborative learning, computer-supported cooperative work and user interface design.
 
 
-Towards improving the design of three-dimensional information visualizations, a perception study was performed to examine participant’s ability to perceive relative depth of stereoscopically and monoscopically rendered two-dimensional shapes. In the experiment, depth was considered as a data carrying variable using different shapes, focusing on human’s ability to judge relative depth between objects by estimating relative distance ratios. From the results of our pilot study, the stereoscopic display does not improve relative distance ratio estimation, but has higher confidence scores compared to the monoscopic display. Shape type was not found to affect relative depth estimation accuracy, and overall accuracy levels were about 50%. The qualitative results helped improve our study design, formulate revisions and propose future extensions for follow up experiments. This experiment provides an initial test and substantial starting point, provoking further research of stereoscopic information visualization design, specifically related to tasks involving quantitative judgements to accurately read data values.
+Towards improving the design of three-dimensional information visualizations, 
+a perception study was performed to examine participant’s ability to perceive 
+relative depth of stereoscopically and monoscopically rendered two-dimensional shapes. 
+In the experiment, depth was considered as a data carrying variable using different shapes, 
+focusing on human’s ability to judge relative depth between objects by estimating 
+relative distance ratios. From the results of our pilot study, 
+the stereoscopic display does not improve relative distance ratio estimation, 
+but has higher confidence scores compared to the monoscopic display. 
+Shape type was not found to affect relative depth estimation accuracy, 
+and overall accuracy levels were about 50%. The qualitative results helped 
+improve our study design, formulate revisions and propose future extensions 
+for follow up experiments. This experiment provides an initial test and 
+substantial starting point, provoking further research of stereoscopic 
+information visualization design, specifically related to tasks involving 
+quantitative judgements to accurately read data values.
