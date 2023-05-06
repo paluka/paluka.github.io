@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="https://schema.org/WebPage">
+  <head prefix="og: https://ogp.me/ns#">
+    <meta charset="UTF-8" />
+    <link
+      rel="shortcut icon"
+      href="https://www.erikpaluka.com/img/favicon.ico"
+    />
+    <meta
+      name="keywords"
+      content="human-computer interaction, information visualization, computer science, erik paluka, technology, development"
+    />
+    <meta name="author" content="Erik Paluka" />
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+
+    <!-- Google Analytics -->
+    <script>
+      (function (i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function () {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "//www.google-analytics.com/analytics.js",
+        "ga"
+      );
+
+      ga("create", "UA-32905413-2", "erikpaluka.com");
+      ga("require", "displayfeatures");
+      ga("send", "pageview");
+    </script>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!-- FB Open Graph -->
+    <meta
+      name="image"
+      property="og:image"
+      content="https://www.erikpaluka.com/img/P-300x218.jpg"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Erik Paluka's Website" />
+    <meta
+      property="og:description"
+      content="Master of Science in Computer Science specializing in Human-Computer Interaction (Spatial & Multi-Touch Interaction) and Information Visualization."
+    />
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:site" content="@ErikPaluka" />
+    <meta name="twitter:creator" content="@ErikPaluka" />
+
+    <!-- Schema.org markup for Google+ -->
+    <meta itemprop="name" content="Erik Paluka's Website" />
+    <meta
+      itemprop="description"
+      content="Master of Science in Computer Science specializing in Human-Computer Interaction (Spatial & Multi-Touch Interaction) and Information Visualization."
+    />
+    <meta
+      itemprop="image"
+      content="https://www.erikpaluka.com/img/P-300x218.jpg"
+    />
+
+    <!-- Human-Computer Interaction (HCI) within the realm of Computer Science. Erik is a graduate student in HCI and a member of the vialab research group at UOIT. -->
+
+    <title>Home Page - Erik Paluka</title>
+    <meta
+      name="description"
+      content="Master of Science in Computer Science specializing in Human-Computer Interaction (Spatial & Multi-Touch Interaction) and Information Visualization."
+    />
+
+    <!-- FB Open Graph -->
+    <meta property="og:title" content="Home Page - Erik Paluka" />
+    <meta property="og:url" content="http://www.erikpaluka.com/" />
+
+    <link
+      rel="stylesheet"
+      href="css/style.css"
+      type="text/css"
+      media="screen"
+    />
+    <link
+      rel="stylesheet"
+      href="css/slider/slider.css"
+      type="text/css"
+      media="screen"
+    />
+    <link
+      rel="stylesheet"
+      href="css/slider/themes/light/light.css"
+      type="text/css"
+      media="screen"
+    />
+
+    <style>
+      #cover {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        margin: auto;
+        z-index: 100;
+        top: inherit;
+        opacity: 0;
+        transition: all 1s;
+      }
+      #cover img {
+        transition: all 0.4s;
+      }
+
+      #coverContainer {
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+        z-index: 200;
+        transition: top 1s;
+      }
+
+      #mask {
+        background-color: aliceblue;
+        opacity: 1;
+        transition: opacity 500ms;
+        position: fixed;
+        height: 1595px;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 150;
+      }
+    </style>
+  </head>
+
+  <body id="mainBody">
+    <div id="mask"></div>
+    <div style="display: none">
+      <div id="menu">
+        <ul>
+          <li>
+            <span id="progBarTitle"
+              >Fun side bar that I made. <br /><br />
+              Push a keyboard button to show a picture</span
+            >
+          </li>
+          <li class="menuButtons" id="progressBar">
+            <div id="innerProgressBar"></div>
+          </li>
+          <li class="menuButtons" id="cLevelMenu">
+            <span id="menuSpan">Menu</span>
+            <ul id="gradesSliderMenu">
+              <li id="B2Menu">.</li>
+              <li id="B6Menu">.</li>
+              <li id="A6Menu">.</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div id="handle"></div>
+    </div>
+
+    <div class="container">
+      <div class="socialIcons">
+        <a href="https://github.com/paluka" target="_blank" title="GitHub"
+          ><img
+            src="https://www.erikpaluka.com//img/socialIcons//github.png"
+            width="56"
+            height="25"
+            alt="GitHub Account"
+        /></a>
+
+        <a
+          href="https://scholar.google.ca/citations?user=563USoAAAAAJ"
+          target="_blank"
+          title="Google Scholar"
+          ><img
+            src="https://www.erikpaluka.com//img/socialIcons//googleScholar.png"
+            width="25"
+            height="25"
+            alt="Google Scholar Account"
+        /></a>
+
+        <a
+          href="https://www.linkedin.com/in/erikpaluka"
+          target="_blank"
+          title="LinkedIn"
+          ><img
+            src="https://www.erikpaluka.com//img/socialIcons//LinkedIn_IN_Icon_25px.png"
+            width="25"
+            height="25"
+            alt="LinkedIn Account"
+        /></a>
+
+        <a href="https://twitter.com/ErikPaluka" target="_blank" title="Twitter"
+          ><img
+            src="https://www.erikpaluka.com//img/socialIcons//twitter.png"
+            width="25"
+            height="25"
+            alt="Twitter Account"
+        /></a>
+
+        <a
+          href="https://www.flickr.com/photos/erikpaluka/"
+          target="_blank"
+          title="flickr"
+          ><img
+            src="https://www.erikpaluka.com//img/socialIcons//flickr-25px.jpg"
+            width="25"
+            height="25"
+            alt="flickr Account"
+        /></a>
+
+        <a
+          href="https://vialab.science.uoit.ca/portfolio/erik-paluka"
+          target="_blank"
+          title="vialab Research Group"
+        >
+          <img
+            src="https://www.erikpaluka.com//img/socialIcons//vialab.png"
+            width="70"
+            height="25"
+            alt="vialab Research Group Profile Page"
+          />
+        </a>
+      </div>
+
+      <div id="nameHeader" itemscope itemtype="https://schema.org/Person">
+        <div id="nameTitle">
+          <a href="https://www.erikpaluka.com/">
+            <span itemprop="name">Erik Paluka</span
+            ><span style="font-size: 50%">, M.Sc. in Computer Science</span>
+
+            <p id="namePosition" itemprop="jobTitle">
+              Human-Computer Interaction &amp; Information Visualization
+            </p></a
+          >
+        </div>
+
+        <div
+          class="navigation"
+          itemscope
+          itemtype="https://schema.org/SiteNavigationElement"
+        >
+          <h2 class="hide">Site menu:</h2>
+          <a class="nav-item">
+            itemprop="name"
+            href="https://www.erikpaluka.com/contact/">Contact</a
+          >
+          <!--<a <?php if (strpos($_SERVER['PHP_SELF'], 'projects/')) echo 'class="nav-item-current"'; else echo 'class="nav-item"';?> itemprop="name" href="https://www.erikpaluka.com/projects/">Projects</a>-->
+          <a class="nav-item">
+            itemprop="name"
+            href="https://www.erikpaluka.com/publications/">Publications</a
+          >
+          <a class="nav-item">
+            itemprop="name"
+            href="https://www.erikpaluka.com/research/">Research</a
+          >
+          <!--<a <?php if (strpos($_SERVER['PHP_SELF'], 'bio/index.php')) echo 'class="nav-item-current"'; else echo 'class="nav-item"';?> itemprop="name" href="https://www.erikpaluka.com/bio/">Bio</a>-->
+          <!--<a <?php if (strpos($_SERVER['PHP_SELF'], 'blog/')) echo 'class="nav-item-current"'; else echo 'class="nav-item"';?> itemprop="name" href="https://www.erikpaluka.com/blog/">Blog</a>-->
+          <!--<a <?php /*if (strpos($_SERVER['PHP_SELF'], 'algorithms/')) echo 'class="nav-item-current"'; else echo 'class="nav-item"';*/ ?> itemprop="name" href="https://www.erikpaluka.com/algorithms/">Algorithms</a>-->
+
+          <a class="nav-item-current">
+            itemprop="name" href="https://www.erikpaluka.com/">Home</a
+          >
+        </div>
+      </div>
+
+      <div id="sliderCont" class="slider-wrapper theme-light">
+        <div id="coverContainer">
+          <div id="cover"></div>
+        </div>
+        <div id="slider" class="nivoSlider">
+          <a href="research/tandemtable/">
+            <img
+              id="tllImg"
+              src="img/TandemTable/TLL-mini.png"
+              data-thumb="img/TandemTable/TLL.jpg"
+              alt="TandemTable"
+              title="#TLLcaption"
+              width="900"
+              height="400"
+            />
+          </a>
+
+          <a href="research/off-screen-desktop/">
+            <img
+              id="offScreenImg"
+              src="img/off-screen-mini.png"
+              data-thumb="img/off-screen.png"
+              alt="Off-Screen Desktop"
+              title="#OffScreencaption"
+              width="900"
+              height="400"
+            />
+          </a>
+
+          <a href="research/affectvis/">
+            <img
+              id="affectImg"
+              src="img/edr-mini.jpg"
+              data-thumb="img/edr-big.jpg"
+              alt="Affective Computing Study"
+              title="#Affectcaption"
+              width="900"
+              height="400"
+            />
+          </a>
+
+          <a href="research/percept/">
+            <img
+              id="S3DImg"
+              src="img/Perception-mini.png"
+              data-thumb="img/Perception.jpg"
+              alt="S3D Study"
+              title="#Perceptcaption"
+              width="900"
+              height="400"
+            />
+          </a>
+          <a href="research/smt/">
+            <img
+              id="SMTImg"
+              src="img/SMT/SMT-mini.png"
+              data-thumb="img/SMT/SMT.jpg"
+              alt="Simple Multi-Touch"
+              title="#SMTcaption"
+              width="900"
+              height="400"
+            />
+          </a>
+          <a href="projects/rayTracer/">
+            <img
+              id="rayImg"
+              src="img/raytracer-mini.png"
+              data-thumb="img/raytracer.jpg"
+              alt="Ray Tracer"
+              title="#raycaption"
+              width="900"
+              height="400"
+            />
+          </a>
+          <a href="projects/quakeVis/">
+            <img
+              id="qukImg"
+              src="img/quakeVis-mini.png"
+              data-thumb="img/quakeVis.jpg"
+              alt="QuakeVis"
+              title="#quakecaption"
+              width="900"
+              height="400"
+            />
+          </a>
+          <a href="projects/midpoint/">
+            <img
+              id="midImg"
+              src="img/midpoint-mini.png"
+              data-thumb="img/midpoint.jpg"
+              alt="Random Terrain Generation"
+              title="#midpointcaption"
+              width="900"
+              height="400"
+            />
+          </a>
+          <a href="projects/mouse-glove/">
+            <img
+              id="mogImg"
+              src="img/projects/glove/gloveSlider-mini.png"
+              data-thumb="img/projects/glove/gloveSlider.jpg"
+              alt="Mouse Glove Input Device"
+              title="#glovecaption"
+              width="900"
+              height="400"
+            />
+          </a>
+        </div>
+
+        <div id="glovecaption" class="nivo-html-caption">
+          <a href="projects/mouse-glove/">Mouse Glove Input Device</a>
+        </div>
+
+        <div id="Affectcaption" class="nivo-html-caption">
+          <a href="research/affectvis/"
+            >Physiological (Affective) Study of Information Visualizations</a
+          >
+        </div>
+
+        <div id="Perceptcaption" class="nivo-html-caption">
+          <a href="research/percept/">Stereoscopic 3D Perception Study</a>
+        </div>
+        <div id="quakecaption" class="nivo-html-caption">
+          <a href="projects/quakeVis/"
+            >Earthquake Visualization using real-time data</a
+          >
+        </div>
+
+        <div id="midpointcaption" class="nivo-html-caption">
+          <a href="projects/midpoint/">Random Terrain Generation Experiment</a>
+        </div>
+        <div id="raycaption" class="nivo-html-caption">
+          <a href="projects/rayTracer/">Ray Tracing Experiment</a>
+        </div>
+
+        <div id="SMTcaption" class="nivo-html-caption">
+          <a href="research/smt/">Simple Multi-Touch (SMT) Toolkit</a>
+        </div>
+
+        <div id="OffScreencaption" class="nivo-html-caption">
+          <a href="research/off-screen-desktop/"
+            >Off-Screen Desktop &mdash; Master's Thesis</a
+          >
+        </div>
+
+        <div id="TLLcaption" class="nivo-html-caption">
+          <a href="research/tandemtable/"
+            >TandemTable &mdash; Honours Undergraduate Thesis</a
+          >
+        </div>
+      </div>
+
+      <div>
+        <div id="News">
+          <div id="NewsTitle">News</div>
+          <iframe id="newsFrame" src="news.php"></iframe>
+        </div>
+
+        <div id="twitterContainer">
+          <a
+            class="twitter-timeline"
+            data-lang="en"
+            data-width="449"
+            data-height="303"
+            data-theme="light"
+            href="https://twitter.com/ErikPaluka?ref_src=twsrc%5Etfw"
+            >Tweets by ErikPaluka</a
+          >
+          <script
+            async
+            src="https://platform.twitter.com/widgets.js"
+            charset="utf-8"
+          ></script>
+        </div>
+
+        <div class="clear"></div>
+      </div>
+
+      <div id="footer">
+        <div>
+          <span style="font-size: 10px; float: left"
+            >Website optimized for</span
+          >
+          <img
+            alt="Chrome Logo"
+            id="cLogo"
+            width="61.5"
+            height="20"
+            style="float: left; margin-left: 5px"
+            src="https://www.erikpaluka.com/img/logos/chrome.png"
+          />
+        </div>
+        <a
+          style="visibility: hidden; float: left"
+          class="left"
+          href="https://plus.google.com/114064655173059994291?rel=author"
+          >Google</a
+        >
+        <div id="footerText">
+          &copy;
+          <?php $sYear = 2013;
+                  echo ($sYear != date("Y") ? $sYear . "-" . date("Y") : $sYear); ?>
+          Created by Erik Paluka. All rights reserved.
+        </div>
+      </div>
+    </div>
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/d3.min.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/springTo.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/landing.js"></script>
+  </body>
+</html>
