@@ -1,407 +1,754 @@
 <!DOCTYPE html>
 <html lang="en" itemscope itemtype="https://schema.org/WebPage">
-
-<head prefix="og: https://ogp.me/ns#">
-    <meta charset="UTF-8">
-    <link rel="shortcut icon" href="https://www.erikpaluka.com/img/favicon.ico">
-    <meta name="keywords" content="human-computer interaction, information visualization, computer science, erik paluka, technology, development">
-    <meta name="author" content="Erik Paluka">
+  <head prefix="og: https://ogp.me/ns#">
+    <meta charset="UTF-8" />
+    <link
+      rel="shortcut icon"
+      href="https://www.erikpaluka.com/img/favicon.ico"
+    />
+    <meta
+      name="keywords"
+      content="human-computer interaction, information visualization, computer science, erik paluka, technology, development"
+    />
+    <meta name="author" content="Erik Paluka" />
     <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
-    
+
     <!-- Google Analytics -->
     <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      (function (i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function () {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "//www.google-analytics.com/analytics.js",
+        "ga"
+      );
 
-      ga('create', 'UA-32905413-2', 'erikpaluka.com');
-      ga('require', 'displayfeatures');
-      ga('send', 'pageview');
-
+      ga("create", "UA-32905413-2", "erikpaluka.com");
+      ga("require", "displayfeatures");
+      ga("send", "pageview");
     </script>
 
-    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+      type="text/css"
+    />
 
     <!-- FB Open Graph -->
-    <meta name="image" property="og:image" content="https://www.erikpaluka.com/img/P-300x218.jpg">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Erik Paluka's Website">
-    <meta property="og:description" content="Master of Science in Computer Science specializing in Human-Computer Interaction (Spatial & Multi-Touch Interaction) and Information Visualization.">
+    <meta
+      name="image"
+      property="og:image"
+      content="https://www.erikpaluka.com/img/P-300x218.jpg"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Erik Paluka's Website" />
+    <meta
+      property="og:description"
+      content="Master of Science in Computer Science specializing in Human-Computer Interaction (Spatial & Multi-Touch Interaction) and Information Visualization."
+    />
 
     <!-- Twitter Card data -->
-    <meta name="twitter:site" content="@ErikPaluka">
-    <meta name="twitter:creator" content="@ErikPaluka">
+    <meta name="twitter:site" content="@ErikPaluka" />
+    <meta name="twitter:creator" content="@ErikPaluka" />
 
     <!-- Schema.org markup for Google+ -->
-<meta itemprop="name" content="Erik Paluka's Website">
-<meta itemprop="description" content="Master of Science in Computer Science specializing in Human-Computer Interaction (Spatial & Multi-Touch Interaction) and Information Visualization.">
-<meta itemprop="image" content="https://www.erikpaluka.com/img/P-300x218.jpg">
+    <meta itemprop="name" content="Erik Paluka's Website" />
+    <meta
+      itemprop="description"
+      content="Master of Science in Computer Science specializing in Human-Computer Interaction (Spatial & Multi-Touch Interaction) and Information Visualization."
+    />
+    <meta
+      itemprop="image"
+      content="https://www.erikpaluka.com/img/P-300x218.jpg"
+    />
 
     <!-- Human-Computer Interaction (HCI) within the realm of Computer Science. Erik is a graduate student in HCI and a member of the vialab research group at UOIT. -->
 
-<title>Publications — Erik Paluka</title>
-<meta name="description" content="Erik Paluka's computer science research publications">
+    <title>Publications — Erik Paluka</title>
+    <meta
+      name="description"
+      content="Erik Paluka's computer science research publications"
+    />
 
-<link rel="stylesheet" href="../css/style.css" type="text/css" media="screen" />
+    <link
+      rel="stylesheet"
+      href="../css/style.css"
+      type="text/css"
+      media="screen"
+    />
+  </head>
 
-</head>
-
-<body>
+  <body>
     <div class="container">
-        <?php include( '../includes/header.php'); ?>
-        <div class="researchTitle">
-            <h1>Publications</h1>
+      <div class="socialIcons">
+        <a href="https://github.com/paluka" target="_blank" title="GitHub"
+          ><img
+            src="https://www.erikpaluka.com//img/socialIcons//github.png"
+            width="56"
+            height="25"
+            alt="GitHub Account"
+        /></a>
+
+        <a
+          href="https://scholar.google.ca/citations?user=563USoAAAAAJ"
+          target="_blank"
+          title="Google Scholar"
+          ><img
+            src="https://www.erikpaluka.com//img/socialIcons//googleScholar.png"
+            width="25"
+            height="25"
+            alt="Google Scholar Account"
+        /></a>
+
+        <a
+          href="https://www.linkedin.com/in/erikpaluka"
+          target="_blank"
+          title="LinkedIn"
+          ><img
+            src="https://www.erikpaluka.com//img/socialIcons//LinkedIn_IN_Icon_25px.png"
+            width="25"
+            height="25"
+            alt="LinkedIn Account"
+        /></a>
+
+        <a href="https://twitter.com/ErikPaluka" target="_blank" title="Twitter"
+          ><img
+            src="https://www.erikpaluka.com//img/socialIcons//twitter.png"
+            width="25"
+            height="25"
+            alt="Twitter Account"
+        /></a>
+
+        <a
+          href="https://www.flickr.com/photos/erikpaluka/"
+          target="_blank"
+          title="flickr"
+          ><img
+            src="https://www.erikpaluka.com//img/socialIcons//flickr-25px.jpg"
+            width="25"
+            height="25"
+            alt="flickr Account"
+        /></a>
+
+        <a
+          href="https://vialab.science.uoit.ca/portfolio/erik-paluka"
+          target="_blank"
+          title="vialab Research Group"
+        >
+          <img
+            src="https://www.erikpaluka.com//img/socialIcons//vialab.png"
+            width="70"
+            height="25"
+            alt="vialab Research Group Profile Page"
+          />
+        </a>
+      </div>
+
+      <div id="nameHeader" itemscope itemtype="https://schema.org/Person">
+        <div id="nameTitle">
+          <a href="https://www.erikpaluka.com/">
+            <span itemprop="name">Erik Paluka</span
+            ><span style="font-size: 50%">, M.Sc. in Computer Science</span>
+
+            <p id="namePosition" itemprop="jobTitle">
+              Human-Computer Interaction &amp; Information Visualization
+            </p></a
+          >
         </div>
 
-        <div>
-            <div class="pubType">Peer Reviewed Papers</div>
+        <div
+          class="navigation"
+          itemscope
+          itemtype="https://schema.org/SiteNavigationElement"
+        >
+          <h2 class="hide">Site menu:</h2>
+          <a class="nav-item" itemprop="name" href="/contact/">Contact</a>
+          <a class="nav-item" itemprop="name" href="/images/">Images</a>
+          <!--<a class="nav-item" itemprop="name" href="https://www.erikpaluka.com/projects/">Projects</a>-->
+          <a class="nav-item" itemprop="name" href="/publications/"
+            >Publications</a
+          >
+          <a class="nav-item" itemprop="name" href="/research/">Research</a>
+          <!--<a class="nav-item" itemprop="name" href="https://www.erikpaluka.com/bio/">Bio</a>-->
+          <!--<a class="nav-item" itemprop="name" href="https://www.erikpaluka.com/blog/">Blog</a>-->
+          <!--<a class="nav-item" itemprop="name" href="https://www.erikpaluka.com/algorithms/">Algorithms</a>-->
 
-            <div class="year">
-                2016
-            </div>
-            <div class="publication">
+          <a class="nav-item" itemprop="name" href="https://www.erikpaluka.com/"
+            >Home</a
+          >
+        </div>
+      </div>
 
-                <a href="../files/2016-SpatialVis.pdf" target="_blank" title="Download PDF">
-                    <img class="dlImg" src="../img/pdf.png" width="25" height="25" border="0" alt="Download PDF" />
-                </a>
+      <div class="researchTitle">
+        <h1>Publications</h1>
+      </div>
 
-                <a class="paperLink" href="http://livvil.github.io/workshop/" target="_blank" title="Workshop Website">SpatialVis: Visualization of Spatial Gesture Interaction Logs</a>
-                <br>
-                <span class="author">Erik Paluka</span>, Christopher Collins
-                <div class="pLocation">
-                    <br>Logging Interactive Visualizations &amp; Visualizing Interaction Logs Workshop <br> at the IEEE VIS 2016 Research Conference
-                    <br>Baltimore, Maryland, USA
-                </div>
-            </div>
+      <div>
+        <div class="pubType">Peer Reviewed Papers</div>
 
-            <div class="year">
-                2015
-            </div>
-            <div class="publication">
+        <div class="year">2016</div>
+        <div class="publication">
+          <a
+            href="../files/2016-SpatialVis.pdf"
+            target="_blank"
+            title="Download PDF"
+          >
+            <img
+              class="dlImg"
+              src="../img/pdf.png"
+              width="25"
+              height="25"
+              border="0"
+              alt="Download PDF"
+            />
+          </a>
 
-                <a href="../files/2015-TandemTable.pdf" target="_blank" title="Download PDF">
-                    <img class="dlImg" src="../img/pdf.png" width="25" height="25" border="0" alt="Download PDF" />
-                </a>
-
-                <a class="paperLink" href="http://dl.acm.org/citation.cfm?id=2788915" target="_blank" title="Publisher's Website">TandemTable: Supporting Conversations and Language Learning Using a Multi-Touch Digital Table</a>
-                <br>
-                <span class="author">Erik Paluka</span>, Christopher Collins
-                <div class="pLocation">
-                    <br>In Proceedings of the 2015 Graphics Interface Conference (GI '15)
-                    <br>Saint Mary's University &amp; Dalhousie University &mdash; Halifax, Nova Scotia, Canada
-                </div>
-            </div>
-            <div class="year">
-                2014
-            </div>
-            <div class="publication">
-
-                <a href="../files/2014-Reading-Comprehension.pdf" target="_blank" title="Download PDF">
-                    <img class="dlImg" src="../img/pdf.png" width="25" height="25" border="0" alt="Download PDF" />
-                </a>
-
-                <a class="paperLink" href="http://doi.acm.org/10.1145/2628363.2628387" target="_blank" title="Publisher's Website">Interaction for reading comprehension in mobile devices</a>
-                <br>
-                Rafael Veras, <span class="author">Erik Paluka</span>, Meng-Wei Chang, Vivian Tsang, Fraser Shein, Christopher Collins
-                <div class="pLocation">
-                    <br>In Proceedings of the 16th international conference on Human-computer interaction
-                    <br>with mobile devices &amp; services (MobileHCI '14)
-                    <br>Toronto, Ontario, Canada
-                </div>
-            </div>
-            <div class="year">
-                2013
-            </div>
-            <div class="publication">
-
-                <a href="../files/2013-Augmenting-Tandem-Language.pdf" target="_blank" title="Download PDF">
-                    <img class="dlImg" src="../img/pdf.png" width="25" height="25" border="0" alt="Download PDF" />
-                </a>
-
-                <a class="paperLink" href="http://doi.acm.org/10.1145/2512349.2514922" target="_blank" title="Publisher's Website">Augmenting tandem language learning with the TandemTable</a>
-                <br>
-                <span class="author">Erik Paluka</span>, Christopher Collins
-                <div class="pLocation">
-                    <br>In Proceedings of the 2013 ACM international conference on Interactive tabletops and surfaces (ITS '13)
-                    <br>University of St Andrews &mdash; St. Andrews, Scotland, United Kingdom
-                </div>
-            </div>
+          <a
+            class="paperLink"
+            href="http://livvil.github.io/workshop/"
+            target="_blank"
+            title="Workshop Website"
+            >SpatialVis: Visualization of Spatial Gesture Interaction Logs</a
+          >
+          <br />
+          <span class="author">Erik Paluka</span>, Christopher Collins
+          <div class="pLocation">
+            <br />Logging Interactive Visualizations &amp; Visualizing
+            Interaction Logs Workshop <br />
+            at the IEEE VIS 2016 Research Conference <br />Baltimore, Maryland,
+            USA
+          </div>
         </div>
 
-        <div>
-            <div class="pubType">Patents</div>
+        <div class="year">2015</div>
+        <div class="publication">
+          <a
+            href="../files/2015-TandemTable.pdf"
+            target="_blank"
+            title="Download PDF"
+          >
+            <img
+              class="dlImg"
+              src="../img/pdf.png"
+              width="25"
+              height="25"
+              border="0"
+              alt="Download PDF"
+            />
+          </a>
 
-            <div class="year">
-                2017
-            </div>
+          <a
+            class="paperLink"
+            href="http://dl.acm.org/citation.cfm?id=2788915"
+            target="_blank"
+            title="Publisher's Website"
+            >TandemTable: Supporting Conversations and Language Learning Using a
+            Multi-Touch Digital Table</a
+          >
+          <br />
+          <span class="author">Erik Paluka</span>, Christopher Collins
+          <div class="pLocation">
+            <br />In Proceedings of the 2015 Graphics Interface Conference (GI
+            '15) <br />Saint Mary's University &amp; Dalhousie University
+            &mdash; Halifax, Nova Scotia, Canada
+          </div>
+        </div>
+        <div class="year">2014</div>
+        <div class="publication">
+          <a
+            href="../files/2014-Reading-Comprehension.pdf"
+            target="_blank"
+            title="Download PDF"
+          >
+            <img
+              class="dlImg"
+              src="../img/pdf.png"
+              width="25"
+              height="25"
+              border="0"
+              alt="Download PDF"
+            />
+          </a>
 
-            <div class="publication">
+          <a
+            class="paperLink"
+            href="http://doi.acm.org/10.1145/2628363.2628387"
+            target="_blank"
+            title="Publisher's Website"
+            >Interaction for reading comprehension in mobile devices</a
+          >
+          <br />
+          Rafael Veras, <span class="author">Erik Paluka</span>, Meng-Wei Chang,
+          Vivian Tsang, Fraser Shein, Christopher Collins
+          <div class="pLocation">
+            <br />In Proceedings of the 16th international conference on
+            Human-computer interaction <br />with mobile devices &amp; services
+            (MobileHCI '14) <br />Toronto, Ontario, Canada
+          </div>
+        </div>
+        <div class="year">2013</div>
+        <div class="publication">
+          <a
+            href="../files/2013-Augmenting-Tandem-Language.pdf"
+            target="_blank"
+            title="Download PDF"
+          >
+            <img
+              class="dlImg"
+              src="../img/pdf.png"
+              width="25"
+              height="25"
+              border="0"
+              alt="Download PDF"
+            />
+          </a>
 
-                <a href="http://www.erikpaluka.com/research/off-screen-desktop/" target="_blank" title="Link to Project">System and Method For Spatial Interaction For Viewing and Manipulating Off-Screen Content</a>
-                <br>
+          <a
+            class="paperLink"
+            href="http://doi.acm.org/10.1145/2512349.2514922"
+            target="_blank"
+            title="Publisher's Website"
+            >Augmenting tandem language learning with the TandemTable</a
+          >
+          <br />
+          <span class="author">Erik Paluka</span>, Christopher Collins
+          <div class="pLocation">
+            <br />In Proceedings of the 2013 ACM international conference on
+            Interactive tabletops and surfaces (ITS '13) <br />University of St
+            Andrews &mdash; St. Andrews, Scotland, United Kingdom
+          </div>
+        </div>
+      </div>
 
-                <span class="author">Erik Paluka</span>, Christopher Collins
-                <div class="pLocation">
-                    <br>United States Patent Application No. 15/427,631
-                    <br>Canadian Patent Application No. 2,957,383
-                </div>
-            </div>
+      <div>
+        <div class="pubType">Patents</div>
+
+        <div class="year">2017</div>
+
+        <div class="publication">
+          <a
+            href="http://www.erikpaluka.com/research/off-screen-desktop/"
+            target="_blank"
+            title="Link to Project"
+            >System and Method For Spatial Interaction For Viewing and
+            Manipulating Off-Screen Content</a
+          >
+          <br />
+
+          <span class="author">Erik Paluka</span>, Christopher Collins
+          <div class="pLocation">
+            <br />United States Patent Application No. 15/427,631 <br />Canadian
+            Patent Application No. 2,957,383
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="pubType">Theses</div>
+
+        <div class="year">2015</div>
+        <div class="publication">
+          <a
+            href="../files/2015-Paluka-Master-Thesis.pdf"
+            target="_blank"
+            title="Download PDF"
+          >
+            <img
+              class="dlImg"
+              src="../img/pdf.png"
+              width="25"
+              height="25"
+              border="0"
+              alt="Download PDF"
+            />
+          </a>
+
+          <a
+            class="paperLink"
+            href="http://www.erikpaluka.com/research/off-screen-desktop/"
+            target="_blank"
+            title="Link to Project"
+            >Spatial Peripheral Interaction Techniques for Viewing and
+            Manipulating Off-Screen Digital Content</a
+          >
+          <br />
+
+          <span class="author">Erik Paluka</span>
+          <div class="pLocation">
+            <br />Master of Science in Computer Science Thesis <br />University
+            of Ontario Institute of Technology &mdash; Oshawa, Ontario, Canada
+          </div>
         </div>
 
-        <div>
-            <div class="pubType">Theses</div>
+        <div class="year">2012</div>
+        <div class="publication">
+          <a
+            href="../files/2012-Paluka-Undergrad_Thesis.pdf"
+            target="_blank"
+            title="Download PDF"
+          >
+            <img
+              class="dlImg"
+              src="../img/pdf.png"
+              width="25"
+              height="25"
+              border="0"
+              alt="Download PDF"
+            />
+          </a>
 
-            <div class="year">
-                2015
-            </div>
-            <div class="publication">
+          <a
+            class="paperLink"
+            href="http://vialab.science.uoit.ca/portfolio/tandemtable"
+            target="_blank"
+            title="Lab Website"
+            >Enhancing Tandem Language Learning Using an Interactive Tabletop</a
+          >
+          <br />
 
-                <a href="../files/2015-Paluka-Master-Thesis.pdf" target="_blank" title="Download PDF">
-                    <img class="dlImg" src="../img/pdf.png" width="25" height="25" border="0" alt="Download PDF" />
-                </a>
-
-                <a class="paperLink" href="http://www.erikpaluka.com/research/off-screen-desktop/" target="_blank" title="Link to Project">Spatial Peripheral Interaction Techniques for Viewing and Manipulating Off-Screen Digital Content</a>
-                <br>
-
-                <span class="author">Erik Paluka</span>
-                <div class="pLocation">
-                    <br>Master of Science in Computer Science Thesis
-                    <br>University of Ontario Institute of Technology &mdash; Oshawa, Ontario, Canada
-                </div>
-            </div>
-
-
-            <div class="year">
-                2012
-            </div>
-            <div class="publication">
-
-                <a href="../files/2012-Paluka-Undergrad_Thesis.pdf" target="_blank" title="Download PDF">
-                    <img class="dlImg" src="../img/pdf.png" width="25" height="25" border="0" alt="Download PDF" />
-                </a>
-
-                <a class="paperLink" href="http://vialab.science.uoit.ca/portfolio/tandemtable" target="_blank" title="Lab Website">Enhancing Tandem Language Learning Using an Interactive Tabletop</a>
-                <br>
-
-                <span class="author">Erik Paluka</span>
-                <div class="pLocation">
-                    <br>Honours Undergraduate Computer Science Thesis
-                    <br>University of Ontario Institute of Technology &mdash; Oshawa, Ontario, Canada
-                </div>
-            </div>
+          <span class="author">Erik Paluka</span>
+          <div class="pLocation">
+            <br />Honours Undergraduate Computer Science Thesis <br />University
+            of Ontario Institute of Technology &mdash; Oshawa, Ontario, Canada
+          </div>
         </div>
+      </div>
 
-        <div>
-            <div class="pubType">Chapters</div>
+      <div>
+        <div class="pubType">Chapters</div>
 
-            <div class="year">
-                2016
-            </div>
-            <div class="publication">
+        <div class="year">2016</div>
+        <div class="publication">
+          <a
+            href="../files/2016-Paluka-SimpleMulti-Touch.pdf"
+            target="_blank"
+            title="Download PDF"
+          >
+            <img
+              class="dlImg"
+              src="../img/pdf.png"
+              width="25"
+              height="25"
+              border="0"
+              alt="Download PDF"
+            />
+          </a>
 
-                <a href="../files/2016-Paluka-SimpleMulti-Touch.pdf" target="_blank" title="Download PDF">
-                    <img class="dlImg" src="../img/pdf.png" width="25" height="25" border="0" alt="Download PDF" />
-                </a>
+          <a
+            class="paperLink"
+            href="http://vialab.science.uoit.ca/portfolio/smt-toolkit"
+            target="_blank"
+            title="Link to Project"
+            >The Simple Multi-Touch Toolkit</a
+          >
+          <br />
 
-                <a class="paperLink" href="http://vialab.science.uoit.ca/portfolio/smt-toolkit" target="_blank" title="Link to Project">The Simple Multi-Touch Toolkit</a>
-                <br>
-
-                Kalev Sikes, Zachary Cook, <span class="author">Erik Paluka</span>, Mark Hancock, Christopher Collins
-                <div class="pLocation">
-                    <br>Designing Digital Surface Applications
-                    <br>NSERC Digital Surface Software Application Network (SurfNet)
-                </div>
-            </div>
+          Kalev Sikes, Zachary Cook, <span class="author">Erik Paluka</span>,
+          Mark Hancock, Christopher Collins
+          <div class="pLocation">
+            <br />Designing Digital Surface Applications <br />NSERC Digital
+            Surface Software Application Network (SurfNet)
+          </div>
         </div>
+      </div>
 
+      <div>
+        <div class="pubType">Research Posters</div>
+        <div class="year">2013</div>
+        <div class="publication">
+          <a
+            href="../files/Poster_TandemTable_ErikPaluka.pdf"
+            target="_blank"
+            title="Download PDF"
+          >
+            <img
+              class="dlImg"
+              src="../img/pdf.png"
+              width="25"
+              height="25"
+              border="0"
+              alt="Download PDF"
+            />
+          </a>
 
-        <div>
-            <div class="pubType">Research Posters</div>
-             <div class="year">
-                2013
-            </div>
-            <div class="publication">
+          <a
+            class="paperLink"
+            href="http://vialab.science.uoit.ca/portfolio/tandemtable"
+            target="_blank"
+            title="Lab Website"
+            >Augmenting Tandem Language Learning with the TandemTable</a
+          >
 
-                <a href="../files/Poster_TandemTable_ErikPaluka.pdf" target="_blank" title="Download PDF">
-                    <img class="dlImg" src="../img/pdf.png" width="25" height="25" border="0" alt="Download PDF" />
-                </a>
-
-                <a class="paperLink" href="http://vialab.science.uoit.ca/portfolio/tandemtable" target="_blank" title="Lab Website">Augmenting Tandem Language Learning with the TandemTable</a>
-
-                <br>
-                <span class="author">Erik Paluka</span>
-                <div class="pLocation">
-                    <br>Poster session at the 2013 ACM international conference on Interactive tabletops and surfaces (ITS '13)
-                    <br>University of St Andrews &mdash; St. Andrews, Scotland, United Kingdom
-                </div>
-            </div>
-            <div class="year">
-                2012
-            </div>
-            <div class="publication">
-
-                <a href="../files/Poster_LearningInTandem_ErikPaluka.pdf" target="_blank" title="Download PDF">
-                    <img class="dlImg" src="../img/pdf.png" width="25" height="25" border="0" alt="Download PDF" />
-                </a>
-
-                <a class="paperLink" href="http://vialab.science.uoit.ca/portfolio/tandemtable" target="_blank" title="Lab Website">Learning In Tandem: Augmenting Tandem Language Learning With Technology</a>
-
-                <br>
-                <span class="author">Erik Paluka</span>
-                <div class="pLocation">
-                    <br>Student Research Showcase
-                    <br>University of Ontario Institute of Technology &mdash; Oshawa, Ontario, Canada
-                </div>
-            </div>
-            <div class="year">
-                2011
-            </div>
-            <div class="publication">
-
-                <a href="../files/Poster_SimpleMultiTouch_ErikPaluka.pdf" target="_blank" title="Download PDF">
-                    <img class="dlImg" src="../img/pdf.png" width="25" height="25" border="0" alt="Download PDF" />
-                </a>
-
-                <a class="paperLink" href="http://vialab.science.uoit.ca/portfolio/smt-toolkit" target="_blank" title="Lab Website">Simple Multi-Touch: A framework for teaching multi-touch computing</a>
-                <br>
-                <span class="author">Erik Paluka</span>
-                <div class="pLocation">
-                    <br>Student Research Showcase
-                    <br>University of Ontario Institute of Technology &mdash; Oshawa, Ontario, Canada
-                </div>
-            </div>
+          <br />
+          <span class="author">Erik Paluka</span>
+          <div class="pLocation">
+            <br />Poster session at the 2013 ACM international conference on
+            Interactive tabletops and surfaces (ITS '13) <br />University of St
+            Andrews &mdash; St. Andrews, Scotland, United Kingdom
+          </div>
         </div>
+        <div class="year">2012</div>
+        <div class="publication">
+          <a
+            href="../files/Poster_LearningInTandem_ErikPaluka.pdf"
+            target="_blank"
+            title="Download PDF"
+          >
+            <img
+              class="dlImg"
+              src="../img/pdf.png"
+              width="25"
+              height="25"
+              border="0"
+              alt="Download PDF"
+            />
+          </a>
 
-        <div>
-            <div class="pubType">Special Presentations</div>
-            <div class="year">
-                2014
-            </div>
-            <div class="publication">
-                <a href="../research/percept/" target="_blank" title="Evaluating the Perceived Relative Depth of Stereoscopically Rendered Two-Dimensional Shapes">Evaluating the Perceived Relative Depth of Stereoscopically Rendered Two-Dimensional Shapes</a>
-                <br>Brittany Kondo,
-                <span class="author">Erik Paluka</span>
-                <div class="pLocation">
-                    <br>Graduate Student Research Conference
-                    <br>University of Ontario Institute of Technology &mdash; Oshawa, Ontario, Canada
-                </div>
-            </div>
-            <div class="year">
-                2012
-            </div>
-            <div class="publication">
-                <a href="http://vialab.science.uoit.ca/portfolio/tandemtable" target="_blank" title="Lab Website">Honours Undergraduate Thesis: TandemTable</a>
-                <br>
-                <span class="author">Erik Paluka</span>
-                <div class="pLocation">
-                    <br>University Board of Governors
-                    <br>University of Ontario Institute of Technology &mdash; Oshawa, Ontario, Canada
-                </div>
-            </div>
+          <a
+            class="paperLink"
+            href="http://vialab.science.uoit.ca/portfolio/tandemtable"
+            target="_blank"
+            title="Lab Website"
+            >Learning In Tandem: Augmenting Tandem Language Learning With
+            Technology</a
+          >
+
+          <br />
+          <span class="author">Erik Paluka</span>
+          <div class="pLocation">
+            <br />Student Research Showcase <br />University of Ontario
+            Institute of Technology &mdash; Oshawa, Ontario, Canada
+          </div>
         </div>
+        <div class="year">2011</div>
+        <div class="publication">
+          <a
+            href="../files/Poster_SimpleMultiTouch_ErikPaluka.pdf"
+            target="_blank"
+            title="Download PDF"
+          >
+            <img
+              class="dlImg"
+              src="../img/pdf.png"
+              width="25"
+              height="25"
+              border="0"
+              alt="Download PDF"
+            />
+          </a>
 
-        <div>
-            <div class="pubType">Research Network Tutorials</div>
-            <div class="year">
-                2013
-            </div>
-            <div class="publication">
-                <a href="http://vialab.science.uoit.ca/portfolio/smt-toolkit" target="_blank" title="Lab Website">Simple Multi-Touch (SMT) Toolkit</a>
-                <br>
-                <span class="author">Erik Paluka</span>, Zach Cook
-                <div class="pLocation">
-                    <br>NSERC Digital Surface Software Application Network (<a href="http://www.nsercsurfnet.ca/" target="_blank" title="NSERC SurfNet">SurfNet</a>)
-                    <br>University of Calgary &mdash; Calgary, Alberta, Canada
-                </div>
-            </div>
-            <div class="year">
-                2012
-            </div>
-            <div class="publication">
-                <a href="http://vialab.science.uoit.ca/portfolio/smt-toolkit" target="_blank" title="Lab Website">Simple Multi-Touch (SMT) Toolkit</a>
-                <br>
-                <span class="author">Erik Paluka</span>, Zach Cook
-                <div class="pLocation">
-                    <br>NSERC Digital Surface Software Application Network (<a href="http://www.nsercsurfnet.ca/" target="_blank" title="NSERC SurfNet">SurfNet</a>)
-                    <br>University of Waterloo &mdash; Kitchener, Ontario, Canada
-                </div>
-            </div>
+          <a
+            class="paperLink"
+            href="http://vialab.science.uoit.ca/portfolio/smt-toolkit"
+            target="_blank"
+            title="Lab Website"
+            >Simple Multi-Touch: A framework for teaching multi-touch
+            computing</a
+          >
+          <br />
+          <span class="author">Erik Paluka</span>
+          <div class="pLocation">
+            <br />Student Research Showcase <br />University of Ontario
+            Institute of Technology &mdash; Oshawa, Ontario, Canada
+          </div>
         </div>
+      </div>
 
-        <div>
-            <div class="pubType">Research Network Demos</div>
-            <div class="year">
-                2014
-            </div>
-            <div class="publication">
-                <a href="http://www.erikpaluka.com/research/spatialvis/" target="_blank" title="Project Page">Visualization of Logged Spatial Interaction Data</a>
-                <br>
-                <span class="author">Erik Paluka</span>
-                <div class="pLocation">
-                    <br>NSERC Digital Surface Software Application Network (<a href="http://www.nsercsurfnet.ca/" target="_blank" title="NSERC SurfNet">SurfNet</a>)
-                    <br>University of Calgary &mdash; Calgary, Alberta, Canada
-                </div>
-            </div>
-            <div class="year">
-                2012
-            </div>
-            <div class="publication">
-                <a href="http://vialab.science.uoit.ca/portfolio/tandemtable" target="_blank" title="Lab Website">Honours Undergraduate Thesis: TandemTable</a>
-                <br>
-                <span class="author">Erik Paluka</span>
-                <div class="pLocation">
-                    <br>NSERC Digital Surface Software Application Network (<a href="http://www.nsercsurfnet.ca/" target="_blank" title="NSERC SurfNet">SurfNet</a>)
-                    <br>University of Waterloo &mdash; Kitchener, Ontario, Canada
-                </div>
-            </div>
-            <div class="year">
-                2011
-            </div>
-            <div class="publication">
-                <a href="http://vialab.science.uoit.ca/portfolio/smt-toolkit" target="_blank" title="Lab Website">Simple Multi-Touch (SMT) Toolkit</a>
-                <br>
-                <span class="author">Erik Paluka</span>
-                <div class="pLocation">
-                    <br>NSERC Digital Surface Software Application Network (<a href="http://www.nsercsurfnet.ca/" target="_blank" title="NSERC SurfNet">SurfNet</a>)
-                    <br>University of Calgary &mdash; Calgary, Alberta, Canada
-                </div>
-            </div>
+      <div>
+        <div class="pubType">Special Presentations</div>
+        <div class="year">2014</div>
+        <div class="publication">
+          <a
+            href="../research/percept/"
+            target="_blank"
+            title="Evaluating the Perceived Relative Depth of Stereoscopically Rendered Two-Dimensional Shapes"
+            >Evaluating the Perceived Relative Depth of Stereoscopically
+            Rendered Two-Dimensional Shapes</a
+          >
+          <br />Brittany Kondo,
+          <span class="author">Erik Paluka</span>
+          <div class="pLocation">
+            <br />Graduate Student Research Conference <br />University of
+            Ontario Institute of Technology &mdash; Oshawa, Ontario, Canada
+          </div>
         </div>
-
-        <div>
-            <div class="pubType">Special Demos</div>
-            <div class="year">
-                2015
-            </div>
-            <div class="publication">
-                <a href="http://vialab.science.uoit.ca/portfolio/tandemtable" target="_blank" title="Lab Website">Honours Undergraduate Thesis: TandemTable</a>
-                <br>
-                <span class="author">Erik Paluka</span>
-                <div class="pLocation">
-                    <br>Honourable Ed Holder, Minister of State (Science and Technology)
-                    <br>B. Mario Pinto, PhD, President of <a href="http://www.nserc-crsng.gc.ca/index_eng.asp" target="_blank" title="Natural Sciences and Engineering Research Council of Canada">NSERC</a>
-                    <br>Pat Perkins, Member of Parliament for Whitby-Oshawa
-                    <br>Tim McTiernan, PhD, UOIT President and Vice-Chancellor
-                    <br>University of Ontario Institute of Technology &mdash; Oshawa, Ontario, Canada
-                </div>
-            </div>
-            <div class="year">
-                2014
-            </div>
-            <div class="publication">
-                <a href="http://vialab.science.uoit.ca/portfolio/tandemtable" target="_blank" title="Lab Website">Honours Undergraduate Thesis: TandemTable</a>
-                <br>
-                <span class="author">Erik Paluka</span>
-                <div class="pLocation">
-                    <br>Princess Elettra Marconi Giovanelli of Italy, who is the daughter of radio pioneer Guglielmo Marconi
-                    <br>University of Ontario Institute of Technology &mdash; Oshawa, Ontario, Canada
-                </div>
-            </div>
+        <div class="year">2012</div>
+        <div class="publication">
+          <a
+            href="http://vialab.science.uoit.ca/portfolio/tandemtable"
+            target="_blank"
+            title="Lab Website"
+            >Honours Undergraduate Thesis: TandemTable</a
+          >
+          <br />
+          <span class="author">Erik Paluka</span>
+          <div class="pLocation">
+            <br />University Board of Governors <br />University of Ontario
+            Institute of Technology &mdash; Oshawa, Ontario, Canada
+          </div>
         </div>
+      </div>
 
-        <div id="footer">
+      <div>
+        <div class="pubType">Research Network Tutorials</div>
+        <div class="year">2013</div>
+        <div class="publication">
+          <a
+            href="http://vialab.science.uoit.ca/portfolio/smt-toolkit"
+            target="_blank"
+            title="Lab Website"
+            >Simple Multi-Touch (SMT) Toolkit</a
+          >
+          <br />
+          <span class="author">Erik Paluka</span>, Zach Cook
+          <div class="pLocation">
+            <br />NSERC Digital Surface Software Application Network (<a
+              href="http://www.nsercsurfnet.ca/"
+              target="_blank"
+              title="NSERC SurfNet"
+              >SurfNet</a
+            >) <br />University of Calgary &mdash; Calgary, Alberta, Canada
+          </div>
+        </div>
+        <div class="year">2012</div>
+        <div class="publication">
+          <a
+            href="http://vialab.science.uoit.ca/portfolio/smt-toolkit"
+            target="_blank"
+            title="Lab Website"
+            >Simple Multi-Touch (SMT) Toolkit</a
+          >
+          <br />
+          <span class="author">Erik Paluka</span>, Zach Cook
+          <div class="pLocation">
+            <br />NSERC Digital Surface Software Application Network (<a
+              href="http://www.nsercsurfnet.ca/"
+              target="_blank"
+              title="NSERC SurfNet"
+              >SurfNet</a
+            >) <br />University of Waterloo &mdash; Kitchener, Ontario, Canada
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="pubType">Research Network Demos</div>
+        <div class="year">2014</div>
+        <div class="publication">
+          <a
+            href="http://www.erikpaluka.com/research/spatialvis/"
+            target="_blank"
+            title="Project Page"
+            >Visualization of Logged Spatial Interaction Data</a
+          >
+          <br />
+          <span class="author">Erik Paluka</span>
+          <div class="pLocation">
+            <br />NSERC Digital Surface Software Application Network (<a
+              href="http://www.nsercsurfnet.ca/"
+              target="_blank"
+              title="NSERC SurfNet"
+              >SurfNet</a
+            >) <br />University of Calgary &mdash; Calgary, Alberta, Canada
+          </div>
+        </div>
+        <div class="year">2012</div>
+        <div class="publication">
+          <a
+            href="http://vialab.science.uoit.ca/portfolio/tandemtable"
+            target="_blank"
+            title="Lab Website"
+            >Honours Undergraduate Thesis: TandemTable</a
+          >
+          <br />
+          <span class="author">Erik Paluka</span>
+          <div class="pLocation">
+            <br />NSERC Digital Surface Software Application Network (<a
+              href="http://www.nsercsurfnet.ca/"
+              target="_blank"
+              title="NSERC SurfNet"
+              >SurfNet</a
+            >) <br />University of Waterloo &mdash; Kitchener, Ontario, Canada
+          </div>
+        </div>
+        <div class="year">2011</div>
+        <div class="publication">
+          <a
+            href="http://vialab.science.uoit.ca/portfolio/smt-toolkit"
+            target="_blank"
+            title="Lab Website"
+            >Simple Multi-Touch (SMT) Toolkit</a
+          >
+          <br />
+          <span class="author">Erik Paluka</span>
+          <div class="pLocation">
+            <br />NSERC Digital Surface Software Application Network (<a
+              href="http://www.nsercsurfnet.ca/"
+              target="_blank"
+              title="NSERC SurfNet"
+              >SurfNet</a
+            >) <br />University of Calgary &mdash; Calgary, Alberta, Canada
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="pubType">Special Demos</div>
+        <div class="year">2015</div>
+        <div class="publication">
+          <a
+            href="http://vialab.science.uoit.ca/portfolio/tandemtable"
+            target="_blank"
+            title="Lab Website"
+            >Honours Undergraduate Thesis: TandemTable</a
+          >
+          <br />
+          <span class="author">Erik Paluka</span>
+          <div class="pLocation">
+            <br />Honourable Ed Holder, Minister of State (Science and
+            Technology) <br />B. Mario Pinto, PhD, President of
+            <a
+              href="http://www.nserc-crsng.gc.ca/index_eng.asp"
+              target="_blank"
+              title="Natural Sciences and Engineering Research Council of Canada"
+              >NSERC</a
+            >
+            <br />Pat Perkins, Member of Parliament for Whitby-Oshawa <br />Tim
+            McTiernan, PhD, UOIT President and Vice-Chancellor <br />University
+            of Ontario Institute of Technology &mdash; Oshawa, Ontario, Canada
+          </div>
+        </div>
+        <div class="year">2014</div>
+        <div class="publication">
+          <a
+            href="http://vialab.science.uoit.ca/portfolio/tandemtable"
+            target="_blank"
+            title="Lab Website"
+            >Honours Undergraduate Thesis: TandemTable</a
+          >
+          <br />
+          <span class="author">Erik Paluka</span>
+          <div class="pLocation">
+            <br />Princess Elettra Marconi Giovanelli of Italy, who is the
+            daughter of radio pioneer Guglielmo Marconi <br />University of
+            Ontario Institute of Technology &mdash; Oshawa, Ontario, Canada
+          </div>
+        </div>
+      </div>
+
+      <div id="footer">
         <div>
           <span style="font-size: 10px; float: left"
             >Website optimized for</span
@@ -426,7 +773,5 @@
         </div>
       </div>
     </div>
-</body>
-
+  </body>
 </html>
-

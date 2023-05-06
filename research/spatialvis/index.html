@@ -1,101 +1,295 @@
 <!DOCTYPE html>
 <html lang="en" itemscope itemtype="https://schema.org/WebPage">
-
-<head prefix="og: https://ogp.me/ns#">
-    <meta charset="UTF-8">
-    <link rel="shortcut icon" href="https://www.erikpaluka.com/img/favicon.ico">
-    <meta name="keywords" content="human-computer interaction, information visualization, computer science, erik paluka, technology, development">
-    <meta name="author" content="Erik Paluka">
+  <head prefix="og: https://ogp.me/ns#">
+    <meta charset="UTF-8" />
+    <link
+      rel="shortcut icon"
+      href="https://www.erikpaluka.com/img/favicon.ico"
+    />
+    <meta
+      name="keywords"
+      content="human-computer interaction, information visualization, computer science, erik paluka, technology, development"
+    />
+    <meta name="author" content="Erik Paluka" />
     <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
-    
+
     <!-- Google Analytics -->
     <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      (function (i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function () {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "//www.google-analytics.com/analytics.js",
+        "ga"
+      );
 
-      ga('create', 'UA-32905413-2', 'erikpaluka.com');
-      ga('require', 'displayfeatures');
-      ga('send', 'pageview');
-
+      ga("create", "UA-32905413-2", "erikpaluka.com");
+      ga("require", "displayfeatures");
+      ga("send", "pageview");
     </script>
 
-    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+      type="text/css"
+    />
 
     <!-- FB Open Graph -->
-    <meta name="image" property="og:image" content="https://www.erikpaluka.com/img/P-300x218.jpg">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Erik Paluka's Website">
-    <meta property="og:description" content="Master of Science in Computer Science specializing in Human-Computer Interaction (Spatial & Multi-Touch Interaction) and Information Visualization.">
+    <meta
+      name="image"
+      property="og:image"
+      content="https://www.erikpaluka.com/img/P-300x218.jpg"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Erik Paluka's Website" />
+    <meta
+      property="og:description"
+      content="Master of Science in Computer Science specializing in Human-Computer Interaction (Spatial & Multi-Touch Interaction) and Information Visualization."
+    />
 
     <!-- Twitter Card data -->
-    <meta name="twitter:site" content="@ErikPaluka">
-    <meta name="twitter:creator" content="@ErikPaluka">
+    <meta name="twitter:site" content="@ErikPaluka" />
+    <meta name="twitter:creator" content="@ErikPaluka" />
 
     <!-- Schema.org markup for Google+ -->
-<meta itemprop="name" content="Erik Paluka's Website">
-<meta itemprop="description" content="Master of Science in Computer Science specializing in Human-Computer Interaction (Spatial & Multi-Touch Interaction) and Information Visualization.">
-<meta itemprop="image" content="https://www.erikpaluka.com/img/P-300x218.jpg">
+    <meta itemprop="name" content="Erik Paluka's Website" />
+    <meta
+      itemprop="description"
+      content="Master of Science in Computer Science specializing in Human-Computer Interaction (Spatial & Multi-Touch Interaction) and Information Visualization."
+    />
+    <meta
+      itemprop="image"
+      content="https://www.erikpaluka.com/img/P-300x218.jpg"
+    />
 
     <!-- Human-Computer Interaction (HCI) within the realm of Computer Science. Erik is a graduate student in HCI and a member of the vialab research group at UOIT. -->
 
+    <title>SpatialVis - Erik Paluka</title>
+    <meta
+      name="description"
+      content="SpatialVis: Visualization of Spatial Interaction Data"
+    />
+    <link
+      rel="stylesheet"
+      href="../../css/style.css"
+      type="text/css"
+      media="screen"
+    />
+  </head>
 
-        <title>SpatialVis - Erik Paluka</title>
-        <meta name="description" content="SpatialVis: Visualization of Spatial Interaction Data">
-        <link rel="stylesheet" href="../../css/style.css" type="text/css" media="screen" />
-    </head>
+  <body>
+    <div class="container">
+      <div class="socialIcons">
+        <a href="https://github.com/paluka" target="_blank" title="GitHub"
+          ><img
+            src="https://www.erikpaluka.com//img/socialIcons//github.png"
+            width="56"
+            height="25"
+            alt="GitHub Account"
+        /></a>
 
-    <body>
-        <div class="container">
-            <?php include( '../../includes/header.php'); ?>
-            <div class="researchTitle">
-                <h1>SpatialVis:
-                    <br><span style="font-size:0.8em">Web-based Visualization System for Analyzing Logged Spatial Interaction Data</span></h1>
+        <a
+          href="https://scholar.google.ca/citations?user=563USoAAAAAJ"
+          target="_blank"
+          title="Google Scholar"
+          ><img
+            src="https://www.erikpaluka.com//img/socialIcons//googleScholar.png"
+            width="25"
+            height="25"
+            alt="Google Scholar Account"
+        /></a>
 
-                    January 2015 &ndash; April 2015
-                <br><br><span class="bold">Technologies:</span> <a href="https://d3js.org/" title="Data-Driven Documents" target="_blank">D3.js</a>, JavaScript, HTML/CSS, <a href="http://www.processing.org/" target="_blank">Processing</a>, <a href="https://www.leapmotion.com/" target="_blank">Leap Motion</a>
-            </div>
+        <a
+          href="https://www.linkedin.com/in/erikpaluka"
+          target="_blank"
+          title="LinkedIn"
+          ><img
+            src="https://www.erikpaluka.com//img/socialIcons//LinkedIn_IN_Icon_25px.png"
+            width="25"
+            height="25"
+            alt="LinkedIn Account"
+        /></a>
 
-            <br>
-            <div class="pub-small">
-                <span class="bold">Publication</span> <br>
-                <a href="http://livvil.github.io/workshop/" target="_blank" title="Workshop Website">SpatialVis: Visualization of Spatial Gesture Interaction Logs</a>
-                <div class="font-small"><span class="bold">Erik Paluka</span>, Christopher Collins
-                    <br>Logging Interactive Visualizations &amp; Visualizing Interaction Logs Workshop <br> at the IEEE VIS 2016 Research Conference
-                </div>
-            </div>
+        <a href="https://twitter.com/ErikPaluka" target="_blank" title="Twitter"
+          ><img
+            src="https://www.erikpaluka.com//img/socialIcons//twitter.png"
+            width="25"
+            height="25"
+            alt="Twitter Account"
+        /></a>
 
-                <div class="researchContent">
+        <a
+          href="https://www.flickr.com/photos/erikpaluka/"
+          target="_blank"
+          title="flickr"
+          ><img
+            src="https://www.erikpaluka.com//img/socialIcons//flickr-25px.jpg"
+            width="25"
+            height="25"
+            alt="flickr Account"
+        /></a>
 
-                     <div class="center" style="margin-top: 50px; margin-bottom: 50px;">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/yMh_xrCozac" frameborder="0" allowfullscreen></iframe>
+        <a
+          href="https://vialab.science.uoit.ca/portfolio/erik-paluka"
+          target="_blank"
+          title="vialab Research Group"
+        >
+          <img
+            src="https://www.erikpaluka.com//img/socialIcons//vialab.png"
+            width="70"
+            height="25"
+            alt="vialab Research Group Profile Page"
+          />
+        </a>
+      </div>
+
+      <div id="nameHeader" itemscope itemtype="https://schema.org/Person">
+        <div id="nameTitle">
+          <a href="https://www.erikpaluka.com/">
+            <span itemprop="name">Erik Paluka</span
+            ><span style="font-size: 50%">, M.Sc. in Computer Science</span>
+
+            <p id="namePosition" itemprop="jobTitle">
+              Human-Computer Interaction &amp; Information Visualization
+            </p></a
+          >
         </div>
 
-            <div class="researchSection center" style="margin-bottom:20px;">
+        <div
+          class="navigation"
+          itemscope
+          itemtype="https://schema.org/SiteNavigationElement"
+        >
+          <h2 class="hide">Site menu:</h2>
+          <a class="nav-item" itemprop="name" href="/contact/">Contact</a>
+          <a class="nav-item" itemprop="name" href="/images/">Images</a>
+          <!--<a class="nav-item" itemprop="name" href="https://www.erikpaluka.com/projects/">Projects</a>-->
+          <a class="nav-item" itemprop="name" href="/publications/"
+            >Publications</a
+          >
+          <a class="nav-item" itemprop="name" href="/research/">Research</a>
+          <!--<a class="nav-item" itemprop="name" href="https://www.erikpaluka.com/bio/">Bio</a>-->
+          <!--<a class="nav-item" itemprop="name" href="https://www.erikpaluka.com/blog/">Blog</a>-->
+          <!--<a class="nav-item" itemprop="name" href="https://www.erikpaluka.com/algorithms/">Algorithms</a>-->
 
-                <p class="researchParagraph center" style="float: none;">
-                    A common practice in interface design and development is to log the associated input and event data for future analysis to help refine the design and fix software bugs. Most often, this data is textual which makes it difficult to analyze. To mitigate this problem, I developed a web-based application that takes this information and visualizes it for the analyst. Specifically designed for spatial interaction data, also known as mid-air gestures, the application temporally and positionally visualizes event and 3D interaction data over a video screen capture of the associated display to see their effects on the graphical user interface.
+          <a class="nav-item" itemprop="name" href="https://www.erikpaluka.com/"
+            >Home</a
+          >
+        </div>
+      </div>
 
-                    <br><br>
-                    <span style="font-weight:700;">Features:</span>
-                    <br>
-                    Gesture &amp; Event Visualizations, Heatmaps, Interaction Graphs &#43; Brushing &amp; Linking, Saving &amp; Loading Visualization States, Video Timeline, User Annotation, etc.
-                </p></div></div>
+      <div class="researchTitle">
+        <h1>
+          SpatialVis: <br /><span style="font-size: 0.8em"
+            >Web-based Visualization System for Analyzing Logged Spatial
+            Interaction Data</span
+          >
+        </h1>
 
+        January 2015 &ndash; April 2015
+        <br /><br /><span class="bold">Technologies:</span>
+        <a
+          href="https://d3js.org/"
+          title="Data-Driven Documents"
+          target="_blank"
+          >D3.js</a
+        >, JavaScript, HTML/CSS,
+        <a href="http://www.processing.org/" target="_blank">Processing</a>,
+        <a href="https://www.leapmotion.com/" target="_blank">Leap Motion</a>
+      </div>
 
-            <div class="center">
-                <a href="../../img/projects/spatialvis2.png" target="_blank" title="Web-based Visualization System for Analyzing Logged Spatial Interaction Data">
-                    <img class="researchImg" src="../../img/projects/spatialvis2-small.png" alt="Web Application" width="721" height="548"></a>
-            </div>
-            <div class="center" id="ackSection">
-                <h2>Acknowledgements</h2>
+      <br />
+      <div class="pub-small">
+        <span class="bold">Publication</span> <br />
+        <a
+          href="http://livvil.github.io/workshop/"
+          target="_blank"
+          title="Workshop Website"
+          >SpatialVis: Visualization of Spatial Gesture Interaction Logs</a
+        >
+        <div class="font-small">
+          <span class="bold">Erik Paluka</span>, Christopher Collins
+          <br />Logging Interactive Visualizations &amp; Visualizing Interaction
+          Logs Workshop <br />
+          at the IEEE VIS 2016 Research Conference
+        </div>
+      </div>
 
-                <a href="http://vialab.science.uoit.ca/" target="_blank" title="University of Ontario Institute of Technology vialab research group"><img src="../../img/logos/vialab.png" alt="University of Ontario Institute of Technology vialab research group" width="145" height="52"></a>
+      <div class="researchContent">
+        <div class="center" style="margin-top: 50px; margin-bottom: 50px">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/yMh_xrCozac"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+        </div>
 
-            </div>
-            <div id="footer">
+        <div class="researchSection center" style="margin-bottom: 20px">
+          <p class="researchParagraph center" style="float: none">
+            A common practice in interface design and development is to log the
+            associated input and event data for future analysis to help refine
+            the design and fix software bugs. Most often, this data is textual
+            which makes it difficult to analyze. To mitigate this problem, I
+            developed a web-based application that takes this information and
+            visualizes it for the analyst. Specifically designed for spatial
+            interaction data, also known as mid-air gestures, the application
+            temporally and positionally visualizes event and 3D interaction data
+            over a video screen capture of the associated display to see their
+            effects on the graphical user interface.
+
+            <br /><br />
+            <span style="font-weight: 700">Features:</span>
+            <br />
+            Gesture &amp; Event Visualizations, Heatmaps, Interaction Graphs
+            &#43; Brushing &amp; Linking, Saving &amp; Loading Visualization
+            States, Video Timeline, User Annotation, etc.
+          </p>
+        </div>
+      </div>
+
+      <div class="center">
+        <a
+          href="../../img/projects/spatialvis2.png"
+          target="_blank"
+          title="Web-based Visualization System for Analyzing Logged Spatial Interaction Data"
+        >
+          <img
+            class="researchImg"
+            src="../../img/projects/spatialvis2-small.png"
+            alt="Web Application"
+            width="721"
+            height="548"
+        /></a>
+      </div>
+      <div class="center" id="ackSection">
+        <h2>Acknowledgements</h2>
+
+        <a
+          href="http://vialab.science.uoit.ca/"
+          target="_blank"
+          title="University of Ontario Institute of Technology vialab research group"
+          ><img
+            src="../../img/logos/vialab.png"
+            alt="University of Ontario Institute of Technology vialab research group"
+            width="145"
+            height="52"
+        /></a>
+      </div>
+      <div id="footer">
         <div>
           <span style="font-size: 10px; float: left"
             >Website optimized for</span
@@ -119,9 +313,6 @@
           &copy; Originally created by Erik Paluka in 2013. All rights reserved.
         </div>
       </div>
-
-            </div>
-    </body>
-
+    </div>
+  </body>
 </html>
-
