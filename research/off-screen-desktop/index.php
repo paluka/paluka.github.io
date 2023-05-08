@@ -22,7 +22,7 @@
             <br><br>
             <span class="bold">Technologies:</span> Java, <a href="http://www.processing.org/" target="_blank">Processing</a>, <a href="https://www.leapmotion.com/" target="_blank">Leap Motion</a>
             <p>
-                Lab Project Page: <a href="https://vialab.ca/research/off-screen-desktop" target="_blank">https://vialab.ca/portfolio/off-screen-desktop</a> 
+                Lab Project Page: <a href="https://vialab.ca/research/off-screen-desktop" target="_blank">https://vialab.ca/research/off-screen-desktop</a> 
                 </p>
         </div>
         

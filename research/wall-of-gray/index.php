@@ -15,7 +15,7 @@
                 <br><br><span class="bold">Technologies:</span> Python, JavaScript, <a href="https://d3js.org/" title="Data-Driven Documents" target="_blank">D3.js</a>, HTML/CSS, <a href="http://www.nltk.org/" target="_blank">Natural Language Toolkit (NLTK)</a>
                 
                 <p>
-                Lab Project Page: <a href="https://vialab.ca/research/reading-comprehension-on-mobile-devices" target="_blank">https://vialab.ca/portfolio/reading-comprehension-on-mobile-devices</a> 
+                Lab Project Page: <a href="https://vialab.ca/research/reading-comprehension-on-mobile-devices" target="_blank">https://vialab.ca/research/reading-comprehension-on-mobile-devices</a> 
                 </p>
         </div>
             
