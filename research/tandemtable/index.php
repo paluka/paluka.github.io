@@ -18,7 +18,7 @@
             (<a href="../smt/" target="_blank">Simple Multi-Touch</a>), <a href="http://www.processing.org/" target="_blank">Processing</a>, 
             <br><span style="padding-left: 55px;">Web Services</span>, Digital Signal Processing, <a href="http://www.tuio.org/" target="_blank">TUIO</a>
             <p>
-                Lab Project Page: <a href="https://vialab.ca/portfolio/tandemtable" target="_blank">https://vialab.ca/portfolio/tandemtable</a>
+                Lab Project Page: <a href="https://vialab.ca/research/tandemtable" target="_blank">https://vialab.ca/research/tandemtable</a>
                 </p>
         </div>
         

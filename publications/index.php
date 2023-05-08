@@ -140,7 +140,7 @@
                     <img class="dlImg" src="../img/pdf.png" width="25" height="25" border="0" alt="Download PDF" />
                 </a>
 
-                <a class="paperLink" href="https://vialab.ca/portfolio/tandemtable" target="_blank" title="Lab Website">Enhancing Tandem Language Learning Using an Interactive Tabletop</a>
+                <a class="paperLink" href="https://vialab.ca/research/tandemtable" target="_blank" title="Lab Website">Enhancing Tandem Language Learning Using an Interactive Tabletop</a>
                 <br>
 
                 <span class="author">Erik Paluka</span>
@@ -163,7 +163,7 @@
                     <img class="dlImg" src="../img/pdf.png" width="25" height="25" border="0" alt="Download PDF" />
                 </a>
 
-                <a class="paperLink" href="https://vialab.ca/portfolio/smt-toolkit" target="_blank" title="Link to Project">The Simple Multi-Touch Toolkit</a>
+                <a class="paperLink" href="https://vialab.ca/research/simple-multi-touch-toolkit" target="_blank" title="Link to Project">The Simple Multi-Touch Toolkit</a>
                 <br>
 
                 Kalev Sikes, Zachary Cook, <span class="author">Erik Paluka</span>, Mark Hancock, Christopher Collins
@@ -186,7 +186,7 @@
                     <img class="dlImg" src="../img/pdf.png" width="25" height="25" border="0" alt="Download PDF" />
                 </a>
 
-                <a class="paperLink" href="https://vialab.ca/portfolio/tandemtable" target="_blank" title="Lab Website">Augmenting Tandem Language Learning with the TandemTable</a>
+                <a class="paperLink" href="https://vialab.ca/research/tandemtable" target="_blank" title="Lab Website">Augmenting Tandem Language Learning with the TandemTable</a>
 
                 <br>
                 <span class="author">Erik Paluka</span>
@@ -204,7 +204,7 @@
                     <img class="dlImg" src="../img/pdf.png" width="25" height="25" border="0" alt="Download PDF" />
                 </a>
 
-                <a class="paperLink" href="https://vialab.ca/portfolio/tandemtable" target="_blank" title="Lab Website">Learning In Tandem: Augmenting Tandem Language Learning With Technology</a>
+                <a class="paperLink" href="https://vialab.ca/research/tandemtable" target="_blank" title="Lab Website">Learning In Tandem: Augmenting Tandem Language Learning With Technology</a>
 
                 <br>
                 <span class="author">Erik Paluka</span>
@@ -222,7 +222,7 @@
                     <img class="dlImg" src="../img/pdf.png" width="25" height="25" border="0" alt="Download PDF" />
                 </a>
 
-                <a class="paperLink" href="https://vialab.ca/portfolio/smt-toolkit" target="_blank" title="Lab Website">Simple Multi-Touch: A framework for teaching multi-touch computing</a>
+                <a class="paperLink" href="https://vialab.ca/research/simple-multi-touch-toolkit" target="_blank" title="Lab Website">Simple Multi-Touch: A framework for teaching multi-touch computing</a>
                 <br>
                 <span class="author">Erik Paluka</span>
                 <div class="pLocation">
@@ -250,7 +250,7 @@
                 2012
             </div>
             <div class="publication">
-                <a href="https://vialab.ca/portfolio/tandemtable" target="_blank" title="Lab Website">Honours Undergraduate Thesis: TandemTable</a>
+                <a href="https://vialab.ca/research/tandemtable" target="_blank" title="Lab Website">Honours Undergraduate Thesis: TandemTable</a>
                 <br>
                 <span class="author">Erik Paluka</span>
                 <div class="pLocation">
@@ -266,7 +266,7 @@
                 2013
             </div>
             <div class="publication">
-                <a href="https://vialab.ca/portfolio/smt-toolkit" target="_blank" title="Lab Website">Simple Multi-Touch (SMT) Toolkit</a>
+                <a href="https://vialab.ca/research/simple-multi-touch-toolkit" target="_blank" title="Lab Website">Simple Multi-Touch (SMT) Toolkit</a>
                 <br>
                 <span class="author">Erik Paluka</span>, Zach Cook
                 <div class="pLocation">
@@ -278,7 +278,7 @@
                 2012
             </div>
             <div class="publication">
-                <a href="https://vialab.ca/portfolio/smt-toolkit" target="_blank" title="Lab Website">Simple Multi-Touch (SMT) Toolkit</a>
+                <a href="https://vialab.ca/research/simple-multi-touch-toolkit" target="_blank" title="Lab Website">Simple Multi-Touch (SMT) Toolkit</a>
                 <br>
                 <span class="author">Erik Paluka</span>, Zach Cook
                 <div class="pLocation">
@@ -306,7 +306,7 @@
                 2012
             </div>
             <div class="publication">
-                <a href="https://vialab.ca/portfolio/tandemtable" target="_blank" title="Lab Website">Honours Undergraduate Thesis: TandemTable</a>
+                <a href="https://vialab.ca/research/tandemtable" target="_blank" title="Lab Website">Honours Undergraduate Thesis: TandemTable</a>
                 <br>
                 <span class="author">Erik Paluka</span>
                 <div class="pLocation">
@@ -318,7 +318,7 @@
                 2011
             </div>
             <div class="publication">
-                <a href="https://vialab.ca/portfolio/smt-toolkit" target="_blank" title="Lab Website">Simple Multi-Touch (SMT) Toolkit</a>
+                <a href="https://vialab.ca/research/simple-multi-touch-toolkit" target="_blank" title="Lab Website">Simple Multi-Touch (SMT) Toolkit</a>
                 <br>
                 <span class="author">Erik Paluka</span>
                 <div class="pLocation">
@@ -334,7 +334,7 @@
                 2015
             </div>
             <div class="publication">
-                <a href="https://vialab.ca/portfolio/tandemtable" target="_blank" title="Lab Website">Honours Undergraduate Thesis: TandemTable</a>
+                <a href="https://vialab.ca/research/tandemtable" target="_blank" title="Lab Website">Honours Undergraduate Thesis: TandemTable</a>
                 <br>
                 <span class="author">Erik Paluka</span>
                 <div class="pLocation">
@@ -349,7 +349,7 @@
                 2014
             </div>
             <div class="publication">
-                <a href="https://vialab.ca/portfolio/tandemtable" target="_blank" title="Lab Website">Honours Undergraduate Thesis: TandemTable</a>
+                <a href="https://vialab.ca/research/tandemtable" target="_blank" title="Lab Website">Honours Undergraduate Thesis: TandemTable</a>
                 <br>
                 <span class="author">Erik Paluka</span>
                 <div class="pLocation">

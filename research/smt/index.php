@@ -16,7 +16,7 @@
             <br><br><span class="bold">Technologies:</span> Java, <a href="http://www.processing.org/" target="_blank">Processing</a>, <a href="http://www.tuio.org/" target="_blank">TUIO</a>, <a href="https://www.leapmotion.com/" target="_blank">Leap Motion</a>
             <p>Project Website: <a href="https://vialab.ca/smt/" target="_blank">https://vialab.ca/smt/</a>
                 <br>
-                Lab Project Page: <a href="https://vialab.ca/portfolio/smt-toolkit" target="_blank">https://vialab.ca/portfolio/smt-toolkit</a>
+                Lab Project Page: <a href="https://vialab.ca/research/simple-multi-touch-toolkit" target="_blank">https://vialab.ca/portfolio/smt-toolkit</a>
                 </p>
         </div>
 

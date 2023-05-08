@@ -173,12 +173,13 @@ $(document).ready(function () {
 
   $("#TLLClick").click(function (e) {
     if (researchFlag)
-      window.location.href = "https://vialab.ca/portfolio/tandemtable";
+      window.location.href = "https://vialab.ca/research/tandemtable";
   });
 
   $("#SMTClick").click(function (e) {
     if (researchFlag)
-      window.location.href = "https://vialab.ca/portfolio/smt-toolkit";
+      window.location.href =
+        "https://vialab.ca/research/simple-multi-touch-toolkit";
   });
 
   $("#S3DClick").click(function (e) {

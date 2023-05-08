@@ -11,7 +11,7 @@
 
     <a href="https://www.flickr.com/photos/erikpaluka/" target="_blank" title="flickr"><img src="https://www.erikpaluka.com//img/socialIcons//flickr-25px.jpg" width="25" height="25" alt="flickr Account"/></a>
 
-     <a href="https://vialab.ca/portfolio/erik-paluka" target="_blank" title="vialab Research Group">
+     <a href="https://vialab.ca/team/erik-paluka" target="_blank" title="vialab Research Group">
                 <img src="https://www.erikpaluka.com//img/socialIcons//vialab.png" width="70" height="25" alt="vialab Research Group Profile Page"/>
             </a>
 
