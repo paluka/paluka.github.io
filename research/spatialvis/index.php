@@ -50,7 +50,7 @@
             <div class="center" id="ackSection">
                 <h2>Acknowledgements</h2>
 
-                <a href="http://vialab.ca/" target="_blank" title="University of Ontario Institute of Technology vialab research group"><img src="../../img/logos/vialab.png" alt="University of Ontario Institute of Technology vialab research group" width="145" height="52"></a>
+                <a href="https://vialab.ca/" target="_blank" title="University of Ontario Institute of Technology vialab research group"><img src="../../img/logos/vialab.png" alt="University of Ontario Institute of Technology vialab research group" width="145" height="52"></a>
 
             </div>
             <?php include( '../../includes/footer.php'); ?>

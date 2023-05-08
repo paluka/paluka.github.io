@@ -3,7 +3,7 @@
     <div class="col-md-7">
         <h2 class="featurette-heading">Erik Paluka's Bio</h2>
         <p class="lead">I am currently working on my
-            <a href="http://www.gradstudies.uoit.ca/" title="UOIT-LINK" target="_blank">master's degree in computer science</a> at the Univerisity of Ontario Institute of Technology (UOIT). I have been a member of the Visualization for Information Analysis research group (<a itemprop="relatedLink" href="http://vialab.ca/" target="_blank">vialab</a>) under the supervision of
+            <a href="http://www.gradstudies.uoit.ca/" title="UOIT-LINK" target="_blank">master's degree in computer science</a> at the Univerisity of Ontario Institute of Technology (UOIT). I have been a member of the Visualization for Information Analysis research group (<a itemprop="relatedLink" href="https://vialab.ca/" target="_blank">vialab</a>) under the supervision of
             <a href="http://faculty.uoit.ca/collins/" target="_blank">Dr. Christopher Collins</a> since May 2011.
             <br>
             <br>I received my Bachelor of Science (B.Sc. Honours) in Computer Science specializing in Digital Media from the Univerisity of Ontario Institute of Technology (UOIT) in 2012. My senior honours thesis project, "Enhancing Tandem Language Learning Using an Interactive Tabletop", dealt with the tandem language learning model and interactive surfaces.</p>

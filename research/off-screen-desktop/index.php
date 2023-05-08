@@ -22,7 +22,7 @@
             <br><br>
             <span class="bold">Technologies:</span> Java, <a href="http://www.processing.org/" target="_blank">Processing</a>, <a href="https://www.leapmotion.com/" target="_blank">Leap Motion</a>
             <p>
-                Lab Project Page: <a href="http://vialab.ca/portfolio/off-screen-desktop" target="_blank">http://vialab.ca/portfolio/off-screen-desktop</a> 
+                Lab Project Page: <a href="https://vialab.ca/portfolio/off-screen-desktop" target="_blank">https://vialab.ca/portfolio/off-screen-desktop</a> 
                 </p>
         </div>
         
@@ -360,7 +360,7 @@ Master's Thesis &mdash; University of Ontario Institute of Technology
                 
               
                 
-                <a href="http://vialab.ca/" target="_blank" title="University of Ontario Institute of Technology vialab research group"><img class="ackLogo" src="../../img/logos/vialab.png" alt="University of Ontario Institute of Technology vialab research group" width="145" height="52"></a>
+                <a href="https://vialab.ca/" target="_blank" title="University of Ontario Institute of Technology vialab research group"><img class="ackLogo" src="../../img/logos/vialab.png" alt="University of Ontario Institute of Technology vialab research group" width="145" height="52"></a>
 
         </div>
         <?php include( '../../includes/footer.php'); ?>

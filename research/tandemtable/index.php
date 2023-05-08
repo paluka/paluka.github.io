@@ -18,7 +18,7 @@
             (<a href="../smt/" target="_blank">Simple Multi-Touch</a>), <a href="http://www.processing.org/" target="_blank">Processing</a>, 
             <br><span style="padding-left: 55px;">Web Services</span>, Digital Signal Processing, <a href="http://www.tuio.org/" target="_blank">TUIO</a>
             <p>
-                Lab Project Page: <a href="http://vialab.ca/portfolio/tandemtable" target="_blank">http://vialab.ca/portfolio/tandemtable</a>
+                Lab Project Page: <a href="https://vialab.ca/portfolio/tandemtable" target="_blank">https://vialab.ca/portfolio/tandemtable</a>
                 </p>
         </div>
         
@@ -97,7 +97,7 @@ Honours Undergraduate Thesis &mdash; University of Ontario Institute of Technolo
                 
               
                 
-                <a href="http://vialab.ca/" target="_blank" title="University of Ontario Institute of Technology vialab research group"><img class="ackLogo" src="../../img/logos/vialab.png" alt="University of Ontario Institute of Technology vialab research group" width="145" height="52"></a>
+                <a href="https://vialab.ca/" target="_blank" title="University of Ontario Institute of Technology vialab research group"><img class="ackLogo" src="../../img/logos/vialab.png" alt="University of Ontario Institute of Technology vialab research group" width="145" height="52"></a>
 
         </div>
         

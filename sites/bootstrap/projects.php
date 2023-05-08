@@ -16,7 +16,7 @@
         </div>
         <div class="col-xs-6">
             <p class="lead">Simple Multi-Touch</p>
-            <a href="http://vialab.ca/smt/" target="_blank">
+            <a href="https://vialab.ca/smt/" target="_blank">
                 <img class="featurette-image img-responsive" src="img/SMT-Web.jpg" alt="Simple Multi-Touch Toolkit's Website">
             </a>
         </div>

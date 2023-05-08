@@ -56,7 +56,7 @@
             <div id="ackSection" class="center">
                 <h2>Acknowledgements</h2>
                     
-                <a href="http://vialab.ca/" target="_blank" title="University of Ontario Institute of Technology vialab research group"><img class="ackLogo" src="../../img/logos/vialab.png" alt="University of Ontario Institute of Technology vialab research group" width="145" height="52"></a>
+                <a href="https://vialab.ca/" target="_blank" title="University of Ontario Institute of Technology vialab research group"><img class="ackLogo" src="../../img/logos/vialab.png" alt="University of Ontario Institute of Technology vialab research group" width="145" height="52"></a>
                 
                 <a href="http://faculty.uoit.ca/hogue/" target="_blank" title="University of Ontario Institute of Technology Games & User Research Lab"><img class="ackLogo" src="../../img/logos/HogueGURLab.png" alt="University of Ontario Institute of Technology Games & User Research Lab" width="122" height="50"></a>
 

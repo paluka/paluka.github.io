@@ -33,7 +33,7 @@
                         <ul>
                             <li><a href="http://www.gradstudies.uoit.ca/" title="UOIT Graduate Studies" target="_blank">Univerisity of Ontario Institute of Technology (UOIT)</a></li>
                             <li>Supervised by: Dr. Christopher Collins</li>
-                            <li>Research Lab: <a href="http://vialab.ca/" title="vialab" target="_blank">vialab</a></li>
+                            <li>Research Lab: <a href="https://vialab.ca/" title="vialab" target="_blank">vialab</a></li>
                         </ul>
 
 
@@ -43,7 +43,7 @@
                         <ul>
                             <li><a href="http://www.gradstudies.uoit.ca/" title="UOIT Graduate Studies" target="_blank">Univerisity of Ontario Institute of Technology (UOIT)</a></li>
                             <li>Supervised by: Dr. Christopher Collins</li>
-                             <li>Research Lab: <a href="http://vialab.ca/" title="vialab" target="_blank">vialab</a></li>
+                             <li>Research Lab: <a href="https://vialab.ca/" title="vialab" target="_blank">vialab</a></li>
                         </ul>
 
                     </div>
