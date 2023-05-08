@@ -101,7 +101,7 @@
         <!--        </div>-->
         <!--    </a>-->
 
-        <!--    <a href="http://vialab.science.uoit.ca/smt/">-->
+        <!--    <a href="http://vialab.ca/smt/">-->
         <!--        <div class="researchProject">-->
         <!--            <img alt="Simple Multi-Touch Website" src="../img/projects/SMT-Web.jpg" width="250" height="250">-->
         <!--            <div class="projectTitle">Simple Multi-Touch-->

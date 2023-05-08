@@ -55,7 +55,7 @@
                 <img src="img/googleScholar.png" width="25px" height="25px" />
             </a>
             
-            <a href="http://vialab.science.uoit.ca/portfolio/erik-paluka" target="_blank">
+            <a href="http://vialab.ca/portfolio/erik-paluka" target="_blank">
                 <img src="img/vialab.png" width="70" height="25"/>
             </a>
             
@@ -123,8 +123,8 @@
             <img id="bioImg" />
         </div>
         <div class="Content textContent" id="BioContent">I am currently working on my
-            <a href="http://www.gradstudies.uoit.ca/" title="UOIT Graduate Studies" target="_blank">master's degree in computer science</a> at the Univerisity of Ontario Institute of Technology (UOIT). I have been a member of the Visualization for Information Analysis lab (<a href="http://vialab.science.uoit.ca/" target="_blank" title="vialab research group">vialab</a>) under the supervision of
-            <a href="http://vialab.science.uoit.ca/portfolio/christopher-m-collins" target="_blank">Dr. Christopher Collins</a> since May 2011.
+            <a href="http://www.gradstudies.uoit.ca/" title="UOIT Graduate Studies" target="_blank">master's degree in computer science</a> at the Univerisity of Ontario Institute of Technology (UOIT). I have been a member of the Visualization for Information Analysis lab (<a href="http://vialab.ca/" target="_blank" title="vialab research group">vialab</a>) under the supervision of
+            <a href="http://vialab.ca/portfolio/christopher-m-collins" target="_blank">Dr. Christopher Collins</a> since May 2011.
             <br>
             <br>I received my Bachelor of Science (B.Sc. Honours) in Computer Science specializing in Digital Media from the Univerisity of Ontario Institute of Technology (UOIT) in 2012. My senior honours thesis project, "Enhancing Tandem Language Learning Using an Interactive Tabletop", dealt with the tandem language learning model and interactive surfaces.
             <br>
@@ -136,7 +136,7 @@
         </div>
         <div class="Content textContent" id="ResearchContent">
             <div class="RowDivider">
-                <div class="CellDivider" style="text-align: center; float:left; width: 306px;height:250px;"><a href="http://vialab.science.uoit.ca/portfolio/tandemtable" target="_blank">Tandem Table<br>Honours Undergraduate Thesis</a>
+                <div class="CellDivider" style="text-align: center; float:left; width: 306px;height:250px;"><a href="http://vialab.ca/portfolio/tandemtable" target="_blank">Tandem Table<br>Honours Undergraduate Thesis</a>
                     <br>
                     <br>Supervised by:
                     <br>Dr. Christopher Collins (UOIT)
@@ -153,7 +153,7 @@
             <div class="RowDivider">
                 <div class="CellDivider">
                     <span style="float:left; width: 306px;text-align: center;height:250px;">
-                        <a href="http://vialab.science.uoit.ca/portfolio/smt-toolkit" target="_blank">The Simple Multi-Touch (SMT) Toolkit</a>
+                        <a href="http://vialab.ca/portfolio/smt-toolkit" target="_blank">The Simple Multi-Touch (SMT) Toolkit</a>
                         <br>
                         <br>Supervised by:
                         <br>Dr. Christopher Collins (UOIT)
@@ -175,7 +175,7 @@
                             <a href="http://www.researchgate.net/profile/Erik_Paluka/" target="_blank">ResearchGate</a>,
                             <a href="http://ca.linkedin.com/pub/erik-paluka/36/212/29b" target="_blank">LinkedIn</a>, 
                             <a href="http://www.flickr.com/photos/77791941@N07/" target="_blank">flickr</a>, 
-                            <a href="http://vialab.science.uoit.ca/portfolio/erik-paluka" target="_blank">vialab research group</a>, and
+                            <a href="http://vialab.ca/portfolio/erik-paluka" target="_blank">vialab research group</a>, and
                             <a href="http://twitter.com/#!/ErikPaluka" target="_blank">Twitter</a>.</div>
     </body>
     <script src="scripts/jquery-1.9.1.min.js"></script>

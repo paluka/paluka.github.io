@@ -15,7 +15,7 @@
                 <br><br><span class="bold">Technologies:</span> Python, JavaScript, <a href="https://d3js.org/" title="Data-Driven Documents" target="_blank">D3.js</a>, HTML/CSS, <a href="http://www.nltk.org/" target="_blank">Natural Language Toolkit (NLTK)</a>
                 
                 <p>
-                Lab Project Page: <a href="http://vialab.science.uoit.ca/portfolio/reading-comprehension-on-mobile-devices" target="_blank">http://vialab.science.uoit.ca/portfolio/reading-comprehension-on-mobile-devices</a> 
+                Lab Project Page: <a href="http://vialab.ca/portfolio/reading-comprehension-on-mobile-devices" target="_blank">http://vialab.ca/portfolio/reading-comprehension-on-mobile-devices</a> 
                 </p>
         </div>
             
@@ -45,7 +45,7 @@ with a personalized model of the reader’s vocabulary. We employed natural lang
                 
                 <a href="http://www.nserc-crsng.gc.ca/" target="_blank" title="Natural Sciences and Engineering Research Council of Canada"><img class="ackLogo" src="../../img/logos/NSERC.png" alt="Natural Sciences and Engineering Research Council of Canada" width="124" height="50"></a>
                 
-                <a href="http://vialab.science.uoit.ca/" target="_blank" title="University of Ontario Institute of Technology vialab research group"><img class="ackLogo" src="../../img/logos/vialab.png" alt="University of Ontario Institute of Technology vialab research group" width="145" height="52"></a>
+                <a href="http://vialab.ca/" target="_blank" title="University of Ontario Institute of Technology vialab research group"><img class="ackLogo" src="../../img/logos/vialab.png" alt="University of Ontario Institute of Technology vialab research group" width="145" height="52"></a>
                 
                 <a href="http://www.goqsoftware.com/" target="_blank" title="Quillsoft"><img src="../../img/logos/quillsoft.jpg" alt="Quillsoft" width="130" height="51"></a>
 

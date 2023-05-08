@@ -388,7 +388,7 @@
             <br>
             <li class="maxHeight">
                 <p class="papers">Real-Time Visualization of Streaming Text Data: Tasks and Challenges</p>Christian Rohrdantz, Daniela Oelke, Miloˇs Krstaji´c and Fabian Fischer. 2011.
-                <a href="http://vialab.science.uoit.ca/textvis2011/papers/textvis%202011-rohrdantz.pdf" target="_blank">Link.</a>
+                <a href="http://vialab.ca/textvis2011/papers/textvis%202011-rohrdantz.pdf" target="_blank">Link.</a>
             </li>
             <br>
             <li class="maxHeight">

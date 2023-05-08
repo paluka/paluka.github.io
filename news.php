@@ -71,7 +71,7 @@
 
         <div class="NewsItem">
             <div class="NewsDate">06/2015</div>
-            <div class="NewsText">Presented <a href="http://vialab.science.uoit.ca/portfolio/tandemtable" target="_blank" title="Lab Website">TandemTable</a> to Minister of State for Science &amp; Technology, President of <a href="http://www.nserc-crsng.gc.ca/index_eng.asp" target="_blank" title="Natural Sciences and Engineering Research Council of Canada">NSERC</a>, Member of Parliament for Whitby-Oshawa, &amp; President and Vice-Chancellor of UOIT.
+            <div class="NewsText">Presented <a href="http://vialab.ca/portfolio/tandemtable" target="_blank" title="Lab Website">TandemTable</a> to Minister of State for Science &amp; Technology, President of <a href="http://www.nserc-crsng.gc.ca/index_eng.asp" target="_blank" title="Natural Sciences and Engineering Research Council of Canada">NSERC</a>, Member of Parliament for Whitby-Oshawa, &amp; President and Vice-Chancellor of UOIT.
             </div>
             <div class="clear"></div>
         </div>
@@ -114,7 +114,7 @@
 
         <div class="NewsItem">
             <div class="NewsDate">06/2014</div>
-            <div class="NewsText">Demoed <a href="http://vialab.science.uoit.ca/portfolio/tandemtable" target="_blank" title="TandemTable">TandemTable</a> for <a href="http://news.uoit.ca/archives/2014/06/royal-daughter-of-italian-inventor-marconi-visits-uoit.php" target="_blank" title="Princess Elettra Marconi Giovanelli of Italy">Princess Elettra Marconi Giovanelli of Italy</a>, who is the daughter of radio pioneer Guglielmo Marconi
+            <div class="NewsText">Demoed <a href="http://vialab.ca/portfolio/tandemtable" target="_blank" title="TandemTable">TandemTable</a> for <a href="http://news.uoit.ca/archives/2014/06/royal-daughter-of-italian-inventor-marconi-visits-uoit.php" target="_blank" title="Princess Elettra Marconi Giovanelli of Italy">Princess Elettra Marconi Giovanelli of Italy</a>, who is the daughter of radio pioneer Guglielmo Marconi
             </div>
             <div class="clear"></div>
         </div>
@@ -153,7 +153,7 @@
 
         <div class="NewsItem">
             <div class="NewsDate">06/2013</div>
-            <div class="NewsText">Gave a tutorial on the <a href="http://vialab.science.uoit.ca/portfolio/smt-toolkit" target="_blank" title="Simple Multi-Touch (SMT) toolkit for Processing">Simple Multi-Touch (SMT) toolkit</a> at the NSERC Digital Surface Software Application Network (<a href="http://www.nsercsurfnet.ca/" target="_blank" title="Digital Surface Software Application Network">SurfNet</a>) research workshop hosted at the University of Calgary</div>
+            <div class="NewsText">Gave a tutorial on the <a href="http://vialab.ca/portfolio/smt-toolkit" target="_blank" title="Simple Multi-Touch (SMT) toolkit for Processing">Simple Multi-Touch (SMT) toolkit</a> at the NSERC Digital Surface Software Application Network (<a href="http://www.nsercsurfnet.ca/" target="_blank" title="Digital Surface Software Application Network">SurfNet</a>) research workshop hosted at the University of Calgary</div>
             <div class="clear"></div>
         </div>
 
@@ -166,7 +166,7 @@
 
         <div class="NewsItem">
             <div class="NewsDate">04/2013</div>
-            <div class="NewsText">Our <a href="http://vialab.science.uoit.ca/portfolio/smt-toolkit" target="_blank" title="Simple Multi-Touch (SMT) toolkit for Processing">Simple Multi-Touch (SMT) toolkit</a> was accepted as an official contributed library to
+            <div class="NewsText">Our <a href="http://vialab.ca/portfolio/smt-toolkit" target="_blank" title="Simple Multi-Touch (SMT) toolkit for Processing">Simple Multi-Touch (SMT) toolkit</a> was accepted as an official contributed library to
                 <a href="http://www.processing.org/" target="_blank" title="Programming language for non-coders">Processing</a>
             </div>
             <div class="clear"></div>
@@ -181,7 +181,7 @@
 
         <div class="NewsItem">
             <div class="NewsDate">09/2012</div>
-            <div class="NewsText">Gave a tutorial on the <a href="http://vialab.science.uoit.ca/portfolio/smt-toolkit" target="_blank" title="Simple Multi-Touch (SMT) toolkit for Processing">Simple Multi-Touch (SMT) toolkit</a> and demoed my <a href="http://www.erikpaluka.com/research/tandemtable/" target="_blank" title="TandemTable: Senior Honours Undergraduate Thesis">undergraduate thesis</a> at the NSERC Digital Surface Software Application Network (<a href="http://www.nsercsurfnet.ca/" target="_blank" title="Digital Surface Software Application Network">SurfNet</a>) research workshop hosted at the University of Waterloo</div>
+            <div class="NewsText">Gave a tutorial on the <a href="http://vialab.ca/portfolio/smt-toolkit" target="_blank" title="Simple Multi-Touch (SMT) toolkit for Processing">Simple Multi-Touch (SMT) toolkit</a> and demoed my <a href="http://www.erikpaluka.com/research/tandemtable/" target="_blank" title="TandemTable: Senior Honours Undergraduate Thesis">undergraduate thesis</a> at the NSERC Digital Surface Software Application Network (<a href="http://www.nsercsurfnet.ca/" target="_blank" title="Digital Surface Software Application Network">SurfNet</a>) research workshop hosted at the University of Waterloo</div>
             <div class="clear"></div>
         </div>
 
@@ -206,13 +206,13 @@
 
         <div class="NewsItem">
             <div class="NewsDate">09/2011</div>
-            <div class="NewsText">Demoed the <a href="http://vialab.science.uoit.ca/portfolio/smt-toolkit" target="_blank" title="Simple Multi-Touch (SMT) toolkit for Processing">Simple Multi-Touch (SMT) toolkit</a> at the NSERC Digital Surface Software Application Network (<a href="http://www.nsercsurfnet.ca/" target="_blank" title="Digital Surface Software Application Network">SurfNet</a>) research workshop hosted at the University of Calgary</div>
+            <div class="NewsText">Demoed the <a href="http://vialab.ca/portfolio/smt-toolkit" target="_blank" title="Simple Multi-Touch (SMT) toolkit for Processing">Simple Multi-Touch (SMT) toolkit</a> at the NSERC Digital Surface Software Application Network (<a href="http://www.nsercsurfnet.ca/" target="_blank" title="Digital Surface Software Application Network">SurfNet</a>) research workshop hosted at the University of Calgary</div>
             <div class="clear"></div>
         </div>
 
         <div class="NewsItem">
             <div class="NewsDate">08/2011</div>
-            <div class="NewsText">Presented my research poster on the <a href="http://vialab.science.uoit.ca/portfolio/smt-toolkit" target="_blank" title="Simple Multi-Touch (SMT) toolkit for Processing">Simple Multi-Touch (SMT) toolkit</a> at the University of Ontario Institute of Technology's Student Research Showcase 2011</div>
+            <div class="NewsText">Presented my research poster on the <a href="http://vialab.ca/portfolio/smt-toolkit" target="_blank" title="Simple Multi-Touch (SMT) toolkit for Processing">Simple Multi-Touch (SMT) toolkit</a> at the University of Ontario Institute of Technology's Student Research Showcase 2011</div>
             <div class="clear"></div>
         </div>
     </body>
