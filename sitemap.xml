@@ -7,6 +7,11 @@
         <priority>1.00</priority>
     </url>
     <url>
+        <loc>https://erikpaluka.com/bio/</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.00</priority>
+    </url>
+    <url>
         <loc>https://erikpaluka.com/publications/</loc>
         <changefreq>weekly</changefreq>
         <priority>1.00</priority>
