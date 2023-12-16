@@ -1,412 +1,259 @@
 <!DOCTYPE html>
 <html lang="en" itemscope itemtype="https://schema.org/WebPage">
-  <head prefix="og: https://ogp.me/ns#">
-    <meta charset="UTF-8" />
-    <link rel="shortcut icon" href="https://erikpaluka.com/img/favicon.ico" />
-    <meta
-      name="keywords"
-      content="human-computer interaction, information visualization, computer science, erik paluka, technology, development"
-    />
-    <meta name="author" content="Erik Paluka" />
-    <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
 
-    <!-- Google Analytics -->
-    <script>
-      (function (i, s, o, g, r, a, m) {
-        i["GoogleAnalyticsObject"] = r;
-        (i[r] =
-          i[r] ||
-          function () {
-            (i[r].q = i[r].q || []).push(arguments);
-          }),
-          (i[r].l = 1 * new Date());
-        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m);
-      })(
-        window,
-        document,
-        "script",
-        "//www.google-analytics.com/analytics.js",
-        "ga"
-      );
+<head prefix="og: https://ogp.me/ns#">
+  <meta charset="UTF-8" />
+  <link rel="shortcut icon" href="https://erikpaluka.com/img/favicon.ico" />
+  <meta name="keywords"
+    content="human-computer interaction, information visualization, computer science, erik paluka, technology, development" />
+  <meta name="author" content="Erik Paluka" />
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
 
-      ga("create", "UA-32905413-2", "erikpaluka.com");
-      ga("require", "displayfeatures");
-      ga("send", "pageview");
-    </script>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css" />
 
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto"
-      rel="stylesheet"
-      type="text/css"
-    />
+  <!-- FB Open Graph -->
+  <meta name="image" property="og:image" content="https://erikpaluka.com/img/P-300x218.jpg" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Erik Paluka's Website" />
+  <meta property="og:description"
+    content="Master of Science in Computer Science specializing in Human-Computer Interaction (Spatial & Multi-Touch Interaction) and Information Visualization." />
 
-    <!-- FB Open Graph -->
-    <meta
-      name="image"
-      property="og:image"
-      content="https://erikpaluka.com/img/P-300x218.jpg"
-    />
-    <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="Erik Paluka's Website" />
-    <meta
-      property="og:description"
-      content="Master of Science in Computer Science specializing in Human-Computer Interaction (Spatial & Multi-Touch Interaction) and Information Visualization."
-    />
+  <!-- Twitter Card data -->
+  <meta name="twitter:site" content="@ErikPaluka" />
+  <meta name="twitter:creator" content="@ErikPaluka" />
 
-    <!-- Twitter Card data -->
-    <meta name="twitter:site" content="@ErikPaluka" />
-    <meta name="twitter:creator" content="@ErikPaluka" />
+  <!-- Schema.org markup for Google+ -->
+  <meta itemprop="name" content="Erik Paluka's Website" />
+  <meta itemprop="description"
+    content="Master of Science in Computer Science specializing in Human-Computer Interaction (Spatial & Multi-Touch Interaction) and Information Visualization." />
+  <meta itemprop="image" content="https://erikpaluka.com/img/P-300x218.jpg" />
 
-    <!-- Schema.org markup for Google+ -->
-    <meta itemprop="name" content="Erik Paluka's Website" />
-    <meta
-      itemprop="description"
-      content="Master of Science in Computer Science specializing in Human-Computer Interaction (Spatial & Multi-Touch Interaction) and Information Visualization."
-    />
-    <meta itemprop="image" content="https://erikpaluka.com/img/P-300x218.jpg" />
+  <!-- Human-Computer Interaction (HCI) within the realm of Computer Science. Erik is a graduate student in HCI and a member of the vialab research group at UOIT. -->
 
-    <!-- Human-Computer Interaction (HCI) within the realm of Computer Science. Erik is a graduate student in HCI and a member of the vialab research group at UOIT. -->
+  <title>Projects - Erik Paluka</title>
+  <meta name="description" content="Computer science projects that Erik Paluka has worked on" />
 
-    <title>Projects - Erik Paluka</title>
-    <meta
-      name="description"
-      content="Computer science projects that Erik Paluka has worked on"
-    />
+  <link rel="stylesheet" href="../css/style.css" type="text/css" media="screen" />
+</head>
 
-    <link
-      rel="stylesheet"
-      href="../css/style.css"
-      type="text/css"
-      media="screen"
-    />
-  </head>
+<body onload="play();">
+  <div class="container">
+    <div class="socialIcons">
+      <a href="https://github.com/paluka" target="_blank" title="GitHub"><img
+          src="https://erikpaluka.com//img/socialIcons//github.png" width="56" height="25" alt="GitHub Account" /></a>
 
-  <body onload="play();">
-    <div class="container">
-      <div class="socialIcons">
-        <a href="https://github.com/paluka" target="_blank" title="GitHub"
-          ><img
-            src="https://erikpaluka.com//img/socialIcons//github.png"
-            width="56"
-            height="25"
-            alt="GitHub Account"
-        /></a>
+      <a href="https://scholar.google.ca/citations?user=563USoAAAAAJ" target="_blank" title="Google Scholar"><img
+          src="https://erikpaluka.com//img/socialIcons//googleScholar.png" width="25" height="25"
+          alt="Google Scholar Account" /></a>
 
-        <a
-          href="https://scholar.google.ca/citations?user=563USoAAAAAJ"
-          target="_blank"
-          title="Google Scholar"
-          ><img
-            src="https://erikpaluka.com//img/socialIcons//googleScholar.png"
-            width="25"
-            height="25"
-            alt="Google Scholar Account"
-        /></a>
+      <a href="https://www.linkedin.com/in/erikpaluka" target="_blank" title="LinkedIn"><img
+          src="https://erikpaluka.com//img/socialIcons//LinkedIn_IN_Icon_25px.png" width="25" height="25"
+          alt="LinkedIn Account" /></a>
 
-        <a
-          href="https://www.linkedin.com/in/erikpaluka"
-          target="_blank"
-          title="LinkedIn"
-          ><img
-            src="https://erikpaluka.com//img/socialIcons//LinkedIn_IN_Icon_25px.png"
-            width="25"
-            height="25"
-            alt="LinkedIn Account"
-        /></a>
+      <a href="https://twitter.com/ErikPaluka" target="_blank" title="Twitter"><img
+          src="https://erikpaluka.com//img/socialIcons//twitter.png" width="25" height="25" alt="Twitter Account" /></a>
 
-        <a href="https://twitter.com/ErikPaluka" target="_blank" title="Twitter"
-          ><img
-            src="https://erikpaluka.com//img/socialIcons//twitter.png"
-            width="25"
-            height="25"
-            alt="Twitter Account"
-        /></a>
+      <a href="https://www.flickr.com/photos/erikpaluka/" target="_blank" title="flickr"><img
+          src="https://erikpaluka.com//img/socialIcons//flickr-25px.jpg" width="25" height="25"
+          alt="flickr Account" /></a>
 
-        <a
-          href="https://www.flickr.com/photos/erikpaluka/"
-          target="_blank"
-          title="flickr"
-          ><img
-            src="https://erikpaluka.com//img/socialIcons//flickr-25px.jpg"
-            width="25"
-            height="25"
-            alt="flickr Account"
-        /></a>
+      <a href="https://vialab.ca/team/erik-paluka" target="_blank" title="vialab Research Group">
+        <img src="https://erikpaluka.com//img/socialIcons//vialab.png" width="70" height="25"
+          alt="vialab Research Group Profile Page" />
+      </a>
+    </div>
 
-        <a
-          href="https://vialab.ca/team/erik-paluka"
-          target="_blank"
-          title="vialab Research Group"
-        >
-          <img
-            src="https://erikpaluka.com//img/socialIcons//vialab.png"
-            width="70"
-            height="25"
-            alt="vialab Research Group Profile Page"
-          />
+    <div id="nameHeader" itemscope itemtype="https://schema.org/Person">
+      <div id="nameTitle">
+        <a href="https://erikpaluka.com/">
+          <span itemprop="name">Erik Paluka</span><span style="font-size: 50%">, M.Sc. in Computer Science</span>
+
+          <p id="namePosition" itemprop="jobTitle">
+            Human-Computer Interaction &amp; Information Visualization
+          </p>
         </a>
       </div>
 
-      <div id="nameHeader" itemscope itemtype="https://schema.org/Person">
-        <div id="nameTitle">
-          <a href="https://erikpaluka.com/">
-            <span itemprop="name">Erik Paluka</span
-            ><span style="font-size: 50%">, M.Sc. in Computer Science</span>
+      <div class="navigation" itemscope itemtype="https://schema.org/SiteNavigationElement">
+        <h2 class="hide">Site menu:</h2>
+        <a class="nav-item" itemprop="name" href="/contact/">Contact</a>
+        <a class="nav-item" itemprop="name" href="/images/">Images</a>
+        <!--<a class="nav-item" itemprop="name" href="https://erikpaluka.com/projects/">Projects</a>-->
+        <a class="nav-item" itemprop="name" href="/publications/">Publications</a>
+        <a class="nav-item" itemprop="name" href="/research/">Research</a>
+        <a class="nav-item" itemprop="name" href="https://erikpaluka.com/bio/">Bio</a>
+        <!--<a class="nav-item" itemprop="name" href="https://erikpaluka.com/blog/">Blog</a>-->
+        <!--<a class="nav-item" itemprop="name" href="https://erikpaluka.com/algorithms/">Algorithms</a>-->
 
-            <p id="namePosition" itemprop="jobTitle">
-              Human-Computer Interaction &amp; Information Visualization
-            </p></a
-          >
-        </div>
-
-        <div
-          class="navigation"
-          itemscope
-          itemtype="https://schema.org/SiteNavigationElement"
-        >
-          <h2 class="hide">Site menu:</h2>
-          <a class="nav-item" itemprop="name" href="/contact/">Contact</a>
-          <a class="nav-item" itemprop="name" href="/images/">Images</a>
-          <!--<a class="nav-item" itemprop="name" href="https://erikpaluka.com/projects/">Projects</a>-->
-          <a class="nav-item" itemprop="name" href="/publications/"
-            >Publications</a
-          >
-          <a class="nav-item" itemprop="name" href="/research/">Research</a>
-          <a class="nav-item" itemprop="name" href="https://erikpaluka.com/bio/"
-            >Bio</a
-          >
-          <!--<a class="nav-item" itemprop="name" href="https://erikpaluka.com/blog/">Blog</a>-->
-          <!--<a class="nav-item" itemprop="name" href="https://erikpaluka.com/algorithms/">Algorithms</a>-->
-
-          <a class="nav-item" itemprop="name" href="https://erikpaluka.com/"
-            >Home</a
-          >
-        </div>
-      </div>
-
-      <h1 class="projectCategory">Various Projects</h1>
-      <div class="projectRow">
-        <a href="react-flickr/">
-          <div class="researchProject">
-            <img
-              alt="Flickr Photo App"
-              src="../img/projects/flickr-react.jpg"
-              width="250"
-              height="250"
-            />
-            <div class="projectTitle">Flickr Photo Web App Using ReactJS</div>
-          </div>
-        </a>
-
-        <a href="mouse-glove/">
-          <div class="researchProject">
-            <img
-              alt="Mouse Glove"
-              src="../img/projects/glove/gloveBottom-small.jpg"
-              width="250"
-              height="250"
-            />
-            <div class="projectTitle">Mouse Glove <br />Input Device</div>
-          </div>
-        </a>
-        <a href="quakeVis/">
-          <div class="researchProject">
-            <img
-              alt="QuakeVis"
-              src="../img/projects/quakeVis-small.jpg"
-              width="250"
-              height="250"
-            />
-            <div class="projectTitle">
-              QuakeVis: Visualization of Earthquake Data
-            </div>
-          </div>
-        </a>
-      </div>
-      <br />
-      <div class="projectRow">
-        <a href="midpoint/">
-          <div class="researchProject">
-            <img
-              alt="Random Terrain Generation"
-              src="../img/projects/midpoint-small.jpg"
-              width="250"
-              height="250"
-            />
-            <div class="projectTitle">
-              JavaScript &amp; WebGL <br />Random Terrain Generation
-            </div>
-          </div>
-        </a>
-        <a href="rayTracer/">
-          <div class="researchProject">
-            <img
-              alt="Ray Tracer"
-              src="../img/projects/raytracing-250.jpg"
-              width="250"
-              height="250"
-            />
-            <div class="projectTitle">JavaScript <br />Ray Tracer</div>
-          </div>
-        </a>
-        <a href="uist2012/">
-          <div class="researchProject">
-            <img
-              alt="UIST Student Innovation Contest"
-              src="../img/projects/ForcePad.jpg"
-              width="250"
-              height="250"
-            />
-            <div class="projectTitle">
-              UIST 2012 <br />Student Innovation Contest
-            </div>
-          </div>
-        </a>
-      </div>
-
-      <h1 class="projectCategory">Undergraduate Projects</h1>
-      <div class="projectRow">
-        <a href="openglmovie/">
-          <div class="researchProject">
-            <img
-              alt="OpenGL Movie"
-              src="../img/projects/graphicsYoutube.jpg"
-              width="250"
-              height="250"
-            />
-            <div class="projectTitle">
-              Travelling Through a Scene <br />Interactive OpenGL Movie
-            </div>
-          </div>
-        </a>
-        <a href="simulator/">
-          <div class="researchProject">
-            <img
-              alt="Simulating Multiple 2D Rigid Body Collisions"
-              src="../img/projects/simYoutube.jpg"
-              width="250"
-              height="250"
-            />
-            <div class="projectTitle">
-              Simulating Multiple 2D Rigid Body Collisions
-            </div>
-          </div>
-        </a>
-        <a href="brickbreaker/">
-          <div class="researchProject">
-            <img
-              alt="iPhone Brick Breaker"
-              src="../img/projects/brickbreaker-nophone.jpg"
-              width="250"
-              height="250"
-              id="breaker"
-            />
-            <div class="projectTitle">iPhone <br />Brick Breaker Game</div>
-          </div>
-        </a>
-      </div>
-
-      <!--<h1 class="projectCategory">Websites</h1>-->
-      <!--<div class="projectRow">-->
-
-      <!--    <a href="http://www.whatwakepark.com/">-->
-      <!--        <div class="researchProject">-->
-      <!--            <img alt="What Wake Park" src="../img/projects/wwp-site.png" width="250" height="250">-->
-      <!--            <div class="projectTitle">www.WhatWakePark.com</div>-->
-      <!--        </div>-->
-      <!--    </a>-->
-
-      <!--    <a href="http://www.torontokirtan.ca/">-->
-      <!--        <div class="researchProject">-->
-      <!--            <img alt="Toronto Kirtan Community" src="../img/projects/tkc.png" width="250" height="250">-->
-      <!--            <div class="projectTitle">Toronto Kirtan-->
-      <!--                <br>Community Website</div>-->
-      <!--        </div>-->
-      <!--    </a>-->
-
-      <!--    <a href="https://vialab.ca/smt/">-->
-      <!--        <div class="researchProject">-->
-      <!--            <img alt="Simple Multi-Touch Website" src="../img/projects/SMT-Web.jpg" width="250" height="250">-->
-      <!--            <div class="projectTitle">Simple Multi-Touch-->
-      <!--                <br>Website</div>-->
-      <!--        </div>-->
-      <!--    </a>-->
-      <!--</div>-->
-      <!--<h1 class="projectCategory">Personal Websites</h1>-->
-      <!--<div class="projectRow">-->
-
-      <!--    <a href="https://erikpaluka.com/">-->
-      <!--        <div class="researchProject">-->
-      <!--            <img alt="ErikPaluka.com" src="../img/projects/website.jpg" width="250" height="250">-->
-      <!--            <div class="projectTitle">erikpaluka.com</div>-->
-      <!--        </div>-->
-      <!--    </a>-->
-      <!--    <a href="https://erikpaluka.com/sites/bootstrap/">-->
-      <!--        <div class="researchProject">-->
-      <!--            <img alt="Fluid Site" src="../img/projects/fluidSite-small.jpg" width="250" height="250">-->
-      <!--            <div class="projectTitle">Fluid Website</div>-->
-      <!--        </div>-->
-      <!--    </a>-->
-      <!--    <a href="https://erikpaluka.com/sites/singleHTML/">-->
-      <!--        <div class="researchProject">-->
-      <!--            <img alt="Single Dynamic HTML Page" src="../img/projects/1PageSite.jpg" width="250" height="250">-->
-      <!--            <div class="projectTitle">Single Dynamic-->
-      <!--                <br>HTML Page Website-->
-      <!--            </div>-->
-      <!--        </div>-->
-      <!--    </a>-->
-      <!--</div>-->
-
-      <br />
-      <div id="footer">
-        <div>
-          <span style="font-size: 10px; float: left"
-            >Website optimized for</span
-          >
-          <img
-            alt="Chrome Logo"
-            id="cLogo"
-            width="61.5"
-            height="20"
-            style="float: left; margin-left: 5px"
-            src="https://erikpaluka.com/img/logos/chrome.png"
-          />
-        </div>
-        <a
-          style="visibility: hidden; float: left"
-          class="left"
-          href="https://plus.google.com/114064655173059994291?rel=author"
-          >Google</a
-        >
-        <div id="footerText">
-          &copy; Originally created by Erik Paluka in 2013. All rights reserved.
-        </div>
+        <a class="nav-item" itemprop="name" href="https://erikpaluka.com/">Home</a>
       </div>
     </div>
 
-    <script>
-      var slideshow = [
-        "../img/projects/brickbreaker-nophone2.jpg",
-        "../img/projects/brickbreaker-nophone3.jpg",
-        "../img/projects/brickbreaker-nophone4.jpg",
-        "../img/projects/brickbreaker-nophone.jpg",
-        "../img/projects/brickbreaker-nophone5.jpg",
-      ];
-      var iFrame = null,
-        index = 0,
-        time = 4000;
+    <h1 class="projectCategory">Various Projects</h1>
+    <div class="projectRow">
+      <a href="react-flickr/">
+        <div class="researchProject">
+          <img alt="Flickr Photo App" src="../img/projects/flickr-react.jpg" width="250" height="250" />
+          <div class="projectTitle">Flickr Photo Web App Using ReactJS</div>
+        </div>
+      </a>
 
-      function play() {
-        if (iFrame === null) {
-          iFrame = document.getElementById("breaker");
-          setInterval("play()", time);
-        }
-        index >= slideshow.length - 1 ? (index = 0) : index++;
-        iFrame.src = slideshow[index];
+      <a href="mouse-glove/">
+        <div class="researchProject">
+          <img alt="Mouse Glove" src="../img/projects/glove/gloveBottom-small.jpg" width="250" height="250" />
+          <div class="projectTitle">Mouse Glove <br />Input Device</div>
+        </div>
+      </a>
+      <a href="quakeVis/">
+        <div class="researchProject">
+          <img alt="QuakeVis" src="../img/projects/quakeVis-small.jpg" width="250" height="250" />
+          <div class="projectTitle">
+            QuakeVis: Visualization of Earthquake Data
+          </div>
+        </div>
+      </a>
+    </div>
+    <br />
+    <div class="projectRow">
+      <a href="midpoint/">
+        <div class="researchProject">
+          <img alt="Random Terrain Generation" src="../img/projects/midpoint-small.jpg" width="250" height="250" />
+          <div class="projectTitle">
+            JavaScript &amp; WebGL <br />Random Terrain Generation
+          </div>
+        </div>
+      </a>
+      <a href="rayTracer/">
+        <div class="researchProject">
+          <img alt="Ray Tracer" src="../img/projects/raytracing-250.jpg" width="250" height="250" />
+          <div class="projectTitle">JavaScript <br />Ray Tracer</div>
+        </div>
+      </a>
+      <a href="uist2012/">
+        <div class="researchProject">
+          <img alt="UIST Student Innovation Contest" src="../img/projects/ForcePad.jpg" width="250" height="250" />
+          <div class="projectTitle">
+            UIST 2012 <br />Student Innovation Contest
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <h1 class="projectCategory">Undergraduate Projects</h1>
+    <div class="projectRow">
+      <a href="openglmovie/">
+        <div class="researchProject">
+          <img alt="OpenGL Movie" src="../img/projects/graphicsYoutube.jpg" width="250" height="250" />
+          <div class="projectTitle">
+            Travelling Through a Scene <br />Interactive OpenGL Movie
+          </div>
+        </div>
+      </a>
+      <a href="simulator/">
+        <div class="researchProject">
+          <img alt="Simulating Multiple 2D Rigid Body Collisions" src="../img/projects/simYoutube.jpg" width="250"
+            height="250" />
+          <div class="projectTitle">
+            Simulating Multiple 2D Rigid Body Collisions
+          </div>
+        </div>
+      </a>
+      <a href="brickbreaker/">
+        <div class="researchProject">
+          <img alt="iPhone Brick Breaker" src="../img/projects/brickbreaker-nophone.jpg" width="250" height="250"
+            id="breaker" />
+          <div class="projectTitle">iPhone <br />Brick Breaker Game</div>
+        </div>
+      </a>
+    </div>
+
+    <!--<h1 class="projectCategory">Websites</h1>-->
+    <!--<div class="projectRow">-->
+
+    <!--    <a href="http://www.whatwakepark.com/">-->
+    <!--        <div class="researchProject">-->
+    <!--            <img alt="What Wake Park" src="../img/projects/wwp-site.png" width="250" height="250">-->
+    <!--            <div class="projectTitle">www.WhatWakePark.com</div>-->
+    <!--        </div>-->
+    <!--    </a>-->
+
+    <!--    <a href="http://www.torontokirtan.ca/">-->
+    <!--        <div class="researchProject">-->
+    <!--            <img alt="Toronto Kirtan Community" src="../img/projects/tkc.png" width="250" height="250">-->
+    <!--            <div class="projectTitle">Toronto Kirtan-->
+    <!--                <br>Community Website</div>-->
+    <!--        </div>-->
+    <!--    </a>-->
+
+    <!--    <a href="https://vialab.ca/smt/">-->
+    <!--        <div class="researchProject">-->
+    <!--            <img alt="Simple Multi-Touch Website" src="../img/projects/SMT-Web.jpg" width="250" height="250">-->
+    <!--            <div class="projectTitle">Simple Multi-Touch-->
+    <!--                <br>Website</div>-->
+    <!--        </div>-->
+    <!--    </a>-->
+    <!--</div>-->
+    <!--<h1 class="projectCategory">Personal Websites</h1>-->
+    <!--<div class="projectRow">-->
+
+    <!--    <a href="https://erikpaluka.com/">-->
+    <!--        <div class="researchProject">-->
+    <!--            <img alt="ErikPaluka.com" src="../img/projects/website.jpg" width="250" height="250">-->
+    <!--            <div class="projectTitle">erikpaluka.com</div>-->
+    <!--        </div>-->
+    <!--    </a>-->
+    <!--    <a href="https://erikpaluka.com/sites/bootstrap/">-->
+    <!--        <div class="researchProject">-->
+    <!--            <img alt="Fluid Site" src="../img/projects/fluidSite-small.jpg" width="250" height="250">-->
+    <!--            <div class="projectTitle">Fluid Website</div>-->
+    <!--        </div>-->
+    <!--    </a>-->
+    <!--    <a href="https://erikpaluka.com/sites/singleHTML/">-->
+    <!--        <div class="researchProject">-->
+    <!--            <img alt="Single Dynamic HTML Page" src="../img/projects/1PageSite.jpg" width="250" height="250">-->
+    <!--            <div class="projectTitle">Single Dynamic-->
+    <!--                <br>HTML Page Website-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--    </a>-->
+    <!--</div>-->
+
+    <br />
+    <div id="footer">
+      <div>
+        <span style="font-size: 10px; float: left">Website optimized for</span>
+        <img alt="Chrome Logo" id="cLogo" width="61.5" height="20" style="float: left; margin-left: 5px"
+          src="https://erikpaluka.com/img/logos/chrome.png" />
+      </div>
+      <a style="visibility: hidden; float: left" class="left"
+        href="https://plus.google.com/114064655173059994291?rel=author">Google</a>
+      <div id="footerText">
+        &copy; Originally created by Erik Paluka in 2013. All rights reserved.
+      </div>
+    </div>
+  </div>
+
+  <script>
+    var slideshow = [
+      "../img/projects/brickbreaker-nophone2.jpg",
+      "../img/projects/brickbreaker-nophone3.jpg",
+      "../img/projects/brickbreaker-nophone4.jpg",
+      "../img/projects/brickbreaker-nophone.jpg",
+      "../img/projects/brickbreaker-nophone5.jpg",
+    ];
+    var iFrame = null,
+      index = 0,
+      time = 4000;
+
+    function play() {
+      if (iFrame === null) {
+        iFrame = document.getElementById("breaker");
+        setInterval("play()", time);
       }
-    </script>
-  </body>
+      index >= slideshow.length - 1 ? (index = 0) : index++;
+      iFrame.src = slideshow[index];
+    }
+  </script>
+</body>
+
 </html>
