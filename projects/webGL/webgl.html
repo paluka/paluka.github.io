@@ -1,27 +1,22 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-  <head>
-    <meta itemprop="name" content="Erik Paluka's Website" />
-    <meta
-      itemprop="description"
-      content="Erik specializes in human-computer interaction and is currently working on his master's degree in computer science at the University of Ontario Institute of Technology."
-    />
-    <meta itemprop="image" content="https://erikpaluka.com/images/erik.jpg" />
-    <link rel="SHORTCUT ICON" href="https://erikpaluka.com/images/taz.ico" />
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Erik Paluka</title>
-    <link
-      rel="stylesheet"
-      href="../../style.css"
-      type="text/css"
-      media="screen"
-    />
-    <script type="text/javascript" src="glMatrix-0.9.5.min.js"></script>
-    <script type="text/javascript" src="webgl-utils.js"></script>
-    <script type="text/javascript" src="paluka.js"></script>
-    <link rel="stylesheet" type="text/css" href="../../css/style.css" />
 
-    <script id="shader-fs" type="x-shader/x-fragment">
+<head>
+  <meta itemprop="name" content="Erik Paluka's Website" />
+  <meta itemprop="description"
+    content="Erik specializes in human-computer interaction and is currently working on his master's degree in computer science at the University of Ontario Institute of Technology." />
+  <meta itemprop="image" content="https://erikpaluka.com/images/erik.jpg" />
+  <link rel="SHORTCUT ICON" href="https://erikpaluka.com/images/taz.ico" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Erik Paluka</title>
+  <link rel="stylesheet" href="../../style.css" type="text/css" media="screen" />
+  <script type="text/javascript" src="glMatrix-0.9.5.min.js"></script>
+  <script type="text/javascript" src="webgl-utils.js"></script>
+  <script type="text/javascript" src="paluka.js"></script>
+  <link rel="stylesheet" type="text/css" href="../../css/style.css" />
+
+  <script id="shader-fs" type="x-shader/x-fragment">
       precision mediump float;
 
       varying vec2 vTextureCoord;
@@ -33,7 +28,7 @@
       }
     </script>
 
-    <script id="shader-vs" type="x-shader/x-vertex">
+  <script id="shader-vs" type="x-shader/x-vertex">
       attribute vec3 aVertexPosition;
       attribute vec2 aTextureCoord;
 
@@ -48,149 +43,114 @@
       vTextureCoord = aTextureCoord;
       }
     </script>
-    <script type="text/javascript">
-      var _gaq = _gaq || [];
-      _gaq.push(["_setAccount", "UA-32905413-2"]);
-      _gaq.push(["_trackPageview"]);
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(["_setAccount", "UA-32905413-2"]);
+    _gaq.push(["_trackPageview"]);
 
-      (function () {
-        var ga = document.createElement("script");
-        ga.type = "text/javascript";
-        ga.async = true;
-        ga.src =
-          ("https:" == document.location.protocol
-            ? "https://ssl"
-            : "http://www") + ".google-analytics.com/ga.js";
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(ga, s);
-      })();
-    </script>
-  </head>
-  <body onload="webGLStart();">
-    <div class="container">
-      <!--<div id="vialab"> <a href="https://vialab.ca/">
+    (function () {
+      var ga = document.createElement("script");
+      ga.type = "text/javascript";
+      ga.async = true;
+      ga.src =
+        ("https:" == document.location.protocol
+          ? "https://ssl"
+          : "http://www") + ".google-analytics.com/ga.js";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+</head>
+
+<body onload="webGLStart();">
+  <div id="underConstruction">
+    <p>Mobile and tablet view is currently under construction.</p>
+    <p>To see my website, load it on a laptop or desktop computer</p>
+    <p>with a wide enough screen</p>
+  </div>
+
+  <div class="container">
+    <!--<div id="vialab"> <a href="https://vialab.ca/">
     <span>My Lab's Website!</span>
     <span>Vialab</span>
 </a></div>-->
-      <div class="header">
-        <a
-          href="http://vialab.dc-uoit.net/"
-          id="vialabLink"
-          title="Go to the Vialab's Website"
-          >Vialab</a
-        >
+    <div class="header">
+      <a href="http://vialab.dc-uoit.net/" id="vialabLink" title="Go to the Vialab's Website">Vialab</a>
 
-        <a
-          href="http://www.uoit.ca/"
-          id="UOITALink"
-          title="Go to UOIT's Website"
-          >UOIT</a
-        >
-        <a
-          href="http://www.uoit.ca/"
-          id="UOITFLink"
-          title="Go to UOIT's Website"
-          >UOIT</a
-        >
-        <div id="title">
-          Erik Paluka
-          <br />
-          <p style="font-size: 50%">Graduate Student - Computer Science</p>
-        </div>
+      <a href="http://www.uoit.ca/" id="UOITALink" title="Go to UOIT's Website">UOIT</a>
+      <a href="http://www.uoit.ca/" id="UOITFLink" title="Go to UOIT's Website">UOIT</a>
+      <div id="title">
+        Erik Paluka
         <br />
-        <div class="navigation">
-          <div class="nav-item"><a href="../../contact.html">Contact</a></div>
-          <div class="nav-item"><a href="../../projects.html">Projects</a></div>
-          <div class="nav-item"><a href="../../research.html">Research</a></div>
-          <div class="nav-item"><a href="../../blog.html">Blog</a></div>
-          <div class="nav-item"><a href="../../bio.html">Bio</a></div>
-          <div class="nav-item"><a href="../../index.html">Home</a></div>
-          <br />
-          <br />
-        </div>
+        <p style="font-size: 50%">Graduate Student - Computer Science</p>
       </div>
+      <br />
+      <div class="navigation">
+        <div class="nav-item"><a href="../../contact.html">Contact</a></div>
+        <div class="nav-item"><a href="../../projects.html">Projects</a></div>
+        <div class="nav-item"><a href="../../research.html">Research</a></div>
+        <div class="nav-item"><a href="../../blog.html">Blog</a></div>
+        <div class="nav-item"><a href="../../bio.html">Bio</a></div>
+        <div class="nav-item"><a href="../../index.html">Home</a></div>
+        <br />
+        <br />
+      </div>
+    </div>
 
-      <div>
-        <div style="width: 900px; margin-top: 40px">
-          <div id="content">
-            <div id="webGL" style="text-align: center">
-              <div>
-                <br />
-                <h3>WebGL Example using JavaScript</h3>
-                <br />
-                <span
-                  >Use the "Z" and "X" keys to control zooming. Use the arrows
-                  keys to move about the X and Y axes.</span
-                ><br />
-                <span
-                  >I learned how to use WebGL at
-                  <a
-                    href="http://learningwebgl.com/blog/?page_id=1217"
-                    target="_blank"
-                    >Learning WebGL</a
-                  >. I am using glMatrix-0.9.5.min.js and webgl-utils.js.</span
-                >
-              </div>
+    <div>
+      <div style="width: 900px; margin-top: 40px">
+        <div id="content">
+          <div id="webGL" style="text-align: center">
+            <div>
               <br />
-              <canvas
-                id="canvas1"
-                style="border: dotted"
-                width="900px"
-                height="400"
-              ></canvas>
+              <h3>WebGL Example using JavaScript</h3>
+              <br />
+              <span>Use the "Z" and "X" keys to control zooming. Use the arrows
+                keys to move about the X and Y axes.</span><br />
+              <span>I learned how to use WebGL at
+                <a href="http://learningwebgl.com/blog/?page_id=1217" target="_blank">Learning WebGL</a>. I am using
+                glMatrix-0.9.5.min.js and webgl-utils.js.</span>
             </div>
+            <br />
+            <canvas id="canvas1" style="border: dotted" width="900px" height="400"></canvas>
           </div>
         </div>
       </div>
+    </div>
 
-      <div class="footer">
-        <div style="float: left" class="f">
-          <a href="https://github.com/paluka" target="_blank"
-            ><img src="../../images/github.png"
-          /></a>
-          <a
-            href="http://ca.linkedin.com/pub/erik-paluka/36/212/29b"
-            target="_blank"
-            ><img src="../../images/LinkedIn_IN_Icon_25px.png"
-          /></a>
-          <a href="http://uoit.academia.edu/ErikPaluka" target="_blank"
-            ><img src="../../images/academia-edu.png"
-          /></a>
-          <a
-            href="http://www.researchgate.net/profile/Erik_Paluka/"
-            target="_blank"
-            ><img src="../../images/RG.jpg"
-          /></a>
-          <a
-            href="http://www.mendeley.com/profiles/erik-paluka/"
-            target="_blank"
-            ><img src="../../images/mendeley.png"
-          /></a>
-          <a href="http://twitter.com/#!/ErikPaluka" target="_blank"
-            ><img src="../../images/twitter.png"
-          /></a>
-        </div>
+    <div class="footer">
+      <div style="float: left" class="f">
+        <a href="https://github.com/paluka" target="_blank"><img src="../../images/github.png" /></a>
+        <a href="http://ca.linkedin.com/pub/erik-paluka/36/212/29b" target="_blank"><img
+            src="../../images/LinkedIn_IN_Icon_25px.png" /></a>
+        <a href="http://uoit.academia.edu/ErikPaluka" target="_blank"><img src="../../images/academia-edu.png" /></a>
+        <a href="http://www.researchgate.net/profile/Erik_Paluka/" target="_blank"><img src="../../images/RG.jpg" /></a>
+        <a href="http://www.mendeley.com/profiles/erik-paluka/" target="_blank"><img
+            src="../../images/mendeley.png" /></a>
+        <a href="http://twitter.com/#!/ErikPaluka" target="_blank"><img src="../../images/twitter.png" /></a>
+      </div>
 
-        <div style="padding-left: 40px; float: left">
-          <!-- Place this tag where you want the +1 button to render. -->
-          <div class="g-plusone" data-href="https://erikpaluka.com/"></div>
+      <div style="padding-left: 40px; float: left">
+        <!-- Place this tag where you want the +1 button to render. -->
+        <div class="g-plusone" data-href="https://erikpaluka.com/"></div>
 
-          <!-- Place this tag after the last +1 button tag. -->
-          <script type="text/javascript">
-            (function () {
-              var po = document.createElement("script");
-              po.type = "text/javascript";
-              po.async = true;
-              po.src = "https://apis.google.com/js/plusone.js";
-              var s = document.getElementsByTagName("script")[0];
-              s.parentNode.insertBefore(po, s);
-            })();
-          </script>
-        </div>
-        <div style="float: right">
-          &copy; 2012 &ndash; 2013, Erik Paluka. All rights reserved.
-        </div>
+        <!-- Place this tag after the last +1 button tag. -->
+        <script type="text/javascript">
+          (function () {
+            var po = document.createElement("script");
+            po.type = "text/javascript";
+            po.async = true;
+            po.src = "https://apis.google.com/js/plusone.js";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(po, s);
+          })();
+        </script>
+      </div>
+      <div style="float: right">
+        &copy; 2012 &ndash; 2013, Erik Paluka. All rights reserved.
       </div>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>

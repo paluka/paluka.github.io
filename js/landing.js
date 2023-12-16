@@ -119,7 +119,7 @@ $(document).ready(function () {
   d = new Date();
   now = d.getTime();
 
-  if (cookie > 10 && now - cookie < 1200000) {
+  if ((cookie > 10 && now - cookie < 1200000) || (window.innerWidth <= 900)) {
     visitThresh = true;
     $("#mask").remove();
     $("#coverContainer").css("opacity", 0);
@@ -133,7 +133,7 @@ function loadCover() {
   function start() {
     $("#cover").append(cover);
     $("#coverContainer").css("opacity", 1);
-    /*$('#cover').css('background', 'url(\'../img/cover.jpg\') repeat center center'); 
+    /*$('#cover').css('background', 'url(\'https://erikpaluka.com/img/cover.jpg\') repeat center center'); 
          background: url('') repeat center center;
             -webkit-background-size: cover;
             -moz-background-size: cover;
@@ -143,11 +143,11 @@ function loadCover() {
 
   if ($(window).width() > 1000) {
     if (randomSlide == 0) {
-      cover.src = "../img/cover.jpg";
+      cover.src = "https://erikpaluka.com/img/cover.jpg";
       cover.width = 2253;
       cover.height = 1200;
     } else if (randomSlide == 1) {
-      cover.src = "../img/cover-off-screen.jpg";
+      cover.src = "https://erikpaluka.com/img/cover-off-screen.jpg";
       cover.width = 2253;
       cover.height = 1402;
     }
@@ -158,21 +158,21 @@ function loadCover() {
     }
   } else if ($(window).width() > 500) {
     if (randomSlide == 0) {
-      cover.src = "../img/cover-med.jpg";
+      cover.src = "https://erikpaluka.com/img/cover-med.jpg";
       cover.width = 1000;
       cover.height = 532;
     } else if (randomSlide == 1) {
-      cover.src = "../img/cover-off-screen-med.jpg";
+      cover.src = "https://erikpaluka.com/img/cover-off-screen-med.jpg";
       cover.width = 1000;
       cover.height = 622;
     }
   } else {
     if (randomSlide == 0) {
-      cover.src = "../img/cover-small.jpg";
+      cover.src = "https://erikpaluka.com/img/cover-small.jpg";
       cover.width = 500;
       cover.height = 266;
     } else if (randomSlide == 1) {
-      cover.src = "../img/cover-off-screen-small.jpg";
+      cover.src = "https://erikpaluka.com/img/cover-off-screen-small.jpg";
       cover.width = 500;
       cover.height = 311;
     }
@@ -283,7 +283,7 @@ window.onload = function () {
         loadOtherImgs(imgNum);
       };
 
-      imgTLL.src = "/../img/TandemTable/TLL.jpg";
+      imgTLL.src = "https://erikpaluka.com/img/TandemTable/TLL.jpg";
       break;
     case 1:
       // Off-Screen Desktop
@@ -295,7 +295,7 @@ window.onload = function () {
         loadOtherImgs(imgNum);
       };
 
-      imgOSD.src = "/../img/off-screen.jpg";
+      imgOSD.src = "https://erikpaluka.com/img/off-screen.jpg";
       break;
     /*case 1:
              // Affective
@@ -307,7 +307,7 @@ window.onload = function () {
                  loadOtherImgs(imgNum);
              };
 
-             imgS3D.src = '/../img/edr-big.jpg';
+             imgS3D.src = 'https://erikpaluka.com/img/edr-big.jpg';
              break;
         case 1:
              // S3D Perception
@@ -319,7 +319,7 @@ window.onload = function () {
                  loadOtherImgs(imgNum);
              };
 
-             imgS3D.src = '/../img/Perception.jpg';
+             imgS3D.src = 'https://erikpaluka.com/img/Perception.jpg';
              break;
              
         case 2:
@@ -332,7 +332,7 @@ window.onload = function () {
                  loadOtherImgs(imgNum);
              };
 
-             imgSMT.src = '/../img/SMT/SMT.jpg';
+             imgSMT.src = 'https://erikpaluka.com/img/SMT/SMT.jpg';
              break;
         case 3:
              // Ray Tracer
@@ -344,7 +344,7 @@ window.onload = function () {
                  loadOtherImgs(imgNum);
              };
 
-             imgRay.src = '/../img/raytracer.jpg';
+             imgRay.src = 'https://erikpaluka.com/img/raytracer.jpg';
              break;
         case 4:
              //Quake Vis
@@ -356,7 +356,7 @@ window.onload = function () {
                  loadOtherImgs(imgNum);
              };
 
-             imgQuk.src = '/../img/quakeVis.jpg';
+             imgQuk.src = 'https://erikpaluka.com/img/quakeVis.jpg';
              break;
         case 5:
              // Midpoint displacement algorithm
@@ -368,7 +368,7 @@ window.onload = function () {
                  loadOtherImgs(imgNum);
              };
 
-             imgMid.src = '/../img/midpoint.jpg';
+             imgMid.src = 'https://erikpaluka.com/img/midpoint.jpg';
              break;
         case 6:
               // Mouse Glove Input Device
@@ -380,7 +380,7 @@ window.onload = function () {
                  loadOtherImgs(imgNum);
              };
 
-             imgMog.src = '/../img/projects/glove/gloveSlider.jpg';
+             imgMog.src = 'https://erikpaluka.com/img/projects/glove/gloveSlider.jpg';
              break;
         */
     default:
@@ -397,7 +397,7 @@ function loadOtherImgs(loaded) {
       $("#tllImg").attr("src", imgTLL.src);
     };
 
-    imgTLL.src = "/../img/TandemTable/TLL.jpg";
+    imgTLL.src = "https://erikpaluka.com/img/TandemTable/TLL.jpg";
   }
 
   if (loaded != 1) {
@@ -406,7 +406,7 @@ function loadOtherImgs(loaded) {
       $("#offScreenImg").attr("src", imgOSD.src);
     };
 
-    imgOSD.src = "/../img/off-screen.jpg";
+    imgOSD.src = "https://erikpaluka.com/img/off-screen.jpg";
   }
 
   if (loaded != 2) {
@@ -415,7 +415,7 @@ function loadOtherImgs(loaded) {
       $("#affectImg").attr("src", imgAff.src);
     };
 
-    imgAff.src = "/../img/edr-big.jpg";
+    imgAff.src = "https://erikpaluka.com/img/edr-big.jpg";
   }
 
   if (loaded != 3) {
@@ -425,7 +425,7 @@ function loadOtherImgs(loaded) {
       $("#S3DImg").attr("src", imgS3D.src);
     };
 
-    imgS3D.src = "/../img/Perception.jpg";
+    imgS3D.src = "https://erikpaluka.com/img/Perception.jpg";
   }
 
   if (loaded != 4) {
@@ -435,7 +435,7 @@ function loadOtherImgs(loaded) {
       $("#SMTImg").attr("src", imgSMT.src);
     };
 
-    imgSMT.src = "/../img/SMT/SMT.jpg";
+    imgSMT.src = "https://erikpaluka.com/img/SMT/SMT.jpg";
   }
 
   if (loaded != 5) {
@@ -445,7 +445,7 @@ function loadOtherImgs(loaded) {
       $("#rayImg").attr("src", imgRay.src);
     };
 
-    imgRay.src = "/../img/raytracer.jpg";
+    imgRay.src = "https://erikpaluka.com/img/raytracer.jpg";
   }
 
   if (loaded != 6) {
@@ -455,7 +455,7 @@ function loadOtherImgs(loaded) {
       $("#qukImg").attr("src", imgQuk.src);
     };
 
-    imgQuk.src = "/../img/quakeVis.jpg";
+    imgQuk.src = "https://erikpaluka.com/img/quakeVis.jpg";
   }
 
   if (loaded != 7) {
@@ -465,7 +465,7 @@ function loadOtherImgs(loaded) {
       $("#midImg").attr("src", imgMid.src);
     };
 
-    imgMid.src = "/../img/midpoint.jpg";
+    imgMid.src = "https://erikpaluka.com/img/midpoint.jpg";
   }
 
   if (loaded != 8) {
@@ -475,7 +475,7 @@ function loadOtherImgs(loaded) {
       $("#mogImg").attr("src", imgMog.src);
     };
 
-    imgMog.src = "/../img/projects/glove/gloveSlider.jpg";
+    imgMog.src = "https://erikpaluka.com/img/projects/glove/gloveSlider.jpg";
   }
 }
 
