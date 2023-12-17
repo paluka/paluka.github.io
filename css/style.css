@@ -1039,9 +1039,12 @@ a:active {
   font-weight: 700;
 }
 
+.dImgLink {
+  margin-left: -45px;
+}
+
 .dlImg {
   vertical-align: middle;
-  margin-left: -45px;
 }
 
 .paperLink {
