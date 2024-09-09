@@ -119,7 +119,7 @@ $(document).ready(function () {
   d = new Date();
   now = d.getTime();
 
-  if ((cookie > 10 && now - cookie < 1200000) || (window.innerWidth <= 900)) {
+  if ((cookie > 10 && now - cookie < 1200000) || window.innerWidth <= 900) {
     visitThresh = true;
     $("#mask").remove();
     $("#coverContainer").css("opacity", 0);
@@ -199,19 +199,21 @@ function springHandle() {
     elementSpringStop("#handle");
   }
 
-  setTimeout(function () {
-    //$('#mask').remove();
-    //$('#coverContainer').remove();
+  if (document.getElementById("handle")) {
+    setTimeout(function () {
+      //$('#mask').remove();
+      //$('#coverContainer').remove();
 
-    elementSpringTo(
-      "#handle",
-      OLHandX,
-      parseInt($("#handle").css("top"), 10),
-      [100, 10, 1]
-    );
+      elementSpringTo(
+        "#handle",
+        OLHandX,
+        parseInt($("#handle").css("top"), 10),
+        [100, 10, 1]
+      );
 
-    sprung = true;
-  }, 1000);
+      sprung = true;
+    }, 1000);
+  }
 }
 
 window.onload = function () {
