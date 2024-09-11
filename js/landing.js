@@ -35,13 +35,15 @@ function screenSaver(e) {
 
 function screenSaverCSS() {
   shrunk = false;
-  elementSpringStop("#handle");
-  elementSpringTo(
-    "#handle",
-    startingHandX,
-    parseInt($("#handle").css("top"), 10),
-    [100, 10, 1]
-  );
+  if (document.getElementById("handle")) {
+    elementSpringStop("#handle");
+    elementSpringTo(
+      "#handle",
+      startingHandX,
+      parseInt($("#handle").css("top"), 10),
+      [100, 10, 1]
+    );
+  }
   $("#coverContainer").css("position", "fixed");
   $("#coverContainer").css("top", 0);
   $("#coverContainer").css("left", 0);
